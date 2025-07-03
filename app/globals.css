@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 142 76% 36%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 142 70% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 142 70% 50%;
+  }
+
+  /* Theme color variants */
+  .theme-blue {
+    --primary: 221 83% 53%;
+    --ring: 221 83% 53%;
+  }
+
+  .theme-purple {
+    --primary: 262 80% 50%;
+    --ring: 262 80% 50%;
+  }
+
+  .theme-amber {
+    --primary: 43 96% 56%;
+    --ring: 43 96% 56%;
+  }
+
+  .theme-rose {
+    --primary: 330 81% 60%;
+    --ring: 330 81% 60%;
+  }
+
+  .dark .theme-blue {
+    --primary: 213 94% 68%;
+    --ring: 213 94% 68%;
+  }
+
+  .dark .theme-purple {
+    --primary: 263 90% 75%;
+    --ring: 263 90% 75%;
+  }
+
+  .dark .theme-amber {
+    --primary: 38 92% 65%;
+    --ring: 38 92% 65%;
+  }
+
+  .dark .theme-rose {
+    --primary: 330 81% 70%;
+    --ring: 330 81% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float-particle {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-10px) translateX(10px);
+  }
+  50% {
+    transform: translateY(5px) translateX(-5px);
+  }
+  75% {
+    transform: translateY(-5px) translateX(-10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.animate-float-particle {
+  animation: float-particle 10s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--primary-rgb), 0);
+  }
+  50% {
+    box-shadow: 0 0 20px 5px rgba(var(--primary-rgb), 0.3);
+  }
+}
+
+.animate-pulse-glow {
+  --primary-rgb: 22, 163, 74; /* Default green RGB value */
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.theme-blue .animate-pulse-glow {
+  --primary-rgb: 37, 99, 235;
+}
+
+.theme-purple .animate-pulse-glow {
+  --primary-rgb: 147, 51, 234;
+}
+
+.theme-amber .animate-pulse-glow {
+  --primary-rgb: 245, 158, 11;
+}
+
+.theme-rose .animate-pulse-glow {
+  --primary-rgb: 225, 29, 72;
+}
+
+/* Monsoon sale animations */
+@keyframes falling-rain {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.animate-falling-rain {
+  animation: falling-rain 1.5s linear infinite;
+}
+
+/* Shadow effects */
+.shadow-glow {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.15);
+}
+
+.shadow-glow-sm {
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.1);
+}
+
+.text-shadow-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+.hover\:pause-animation:hover {
+  animation-play-state: paused;
+}
