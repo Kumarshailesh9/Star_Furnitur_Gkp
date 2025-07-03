@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -46,6 +47,14 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   }
 
   const categoryName = categoryNames[product.category] || "Products"
+
+   const handlePurchase = () => {
+    
+    setTimeout(() => {
+      window.location.href =
+        `https://wa.me/917651847029?text=Hi%2C%20I%20want%20to%20order%20the%${categoryName}!`
+    }, 1000)
+  }
 
   return (
     <>
@@ -132,7 +141,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <p className="text-sm md:text-base text-muted-foreground">{product.description}</p>
 
             <div className="space-y-4">
-              {product.colors && product.colors.length > 0 && (
+              {/* {product.colors && product.colors.length > 0 && (
                 <div>
                   <h3 className="font-medium text-sm md:text-base mb-2">Color</h3>
                   <RadioGroup defaultValue={product.colors[0]} className="flex flex-wrap gap-3">
@@ -149,9 +158,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     ))}
                   </RadioGroup>
                 </div>
-              )}
+              )} */}
 
-              {product.sizes && product.sizes.length > 0 && (
+              {/* {product.sizes && product.sizes.length > 0 && (
                 <div>
                   <h3 className="font-medium text-sm md:text-base mb-2">Size</h3>
                   <RadioGroup defaultValue={product.sizes[0]} className="flex flex-wrap gap-3">
@@ -168,9 +177,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     ))}
                   </RadioGroup>
                 </div>
-              )}
+              )} */}
 
-              <div>
+              {/* <div>
                 <h3 className="font-medium text-sm md:text-base mb-2">Quantity</h3>
                 <div className="flex items-center">
                   <Button variant="outline" size="icon" className="h-9 w-9 md:h-10 md:w-10 rounded-r-none">
@@ -185,11 +194,16 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     <span className="sr-only">Increase quantity</span>
                   </Button>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3">
-              <Button size="lg" variant="outline" className="flex-1 text-sm md:text-base">
+              <Button
+               size="lg" 
+               variant="outline"
+              className="flex-1 text-sm md:text-base" 
+               onClick={handlePurchase}
+               >
                 Contact for Purchase
               </Button>
               <Button size="icon" variant="outline" className="h-10 w-10 sm:h-12 sm:w-12">

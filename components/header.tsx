@@ -27,7 +27,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { ThemeToggle } from "@/components/theme-toggle"
+// import { ThemeToggle } from "@/components/theme-toggle"
 import { ColorThemeSelector } from "@/components/color-theme-selector"
 import { SearchBar } from "@/components/search-bar"
 import { ScrollingMarquee } from "@/components/scrolling-marquee"
@@ -232,12 +232,12 @@ export default function Header() {
                   </div>
                 </nav>
 
-                <div className="p-4 border-t">
+                {/* <div className="p-4 border-t">
                   <div className="flex items-center justify-between">
                     <ThemeToggle />
                     <ColorThemeSelector />
                   </div>
-                </div>
+                </div> */}
               </div>
             </SheetContent>
           </Sheet>
@@ -295,12 +295,7 @@ export default function Header() {
                 Other Services <ChevronDown className="h-4 w-4 ml-1" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="center" className="w-[200px]">
-                <DropdownMenuItem asChild>
-                  <Link href="/services/interior-design" className="flex items-center gap-2">
-                    <Paintbrush className="h-4 w-4" />
-                    Interior Design
-                  </Link>
-                </DropdownMenuItem>
+                
                 <DropdownMenuItem asChild>
                   <Link href="/services/custom" className="flex items-center gap-2">
                     <Settings className="h-4 w-4" />
@@ -373,10 +368,10 @@ export default function Header() {
             </div>
 
             {/* Desktop Only Controls */}
-            <div className="hidden md:flex items-center gap-1">
+            {/* <div className="hidden md:flex items-center gap-1">
               <ThemeToggle />
               <ColorThemeSelector />
-            </div>
+            </div> */}
           </div>
         </div>
 

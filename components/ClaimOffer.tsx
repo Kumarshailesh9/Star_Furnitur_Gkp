@@ -24,7 +24,7 @@ export function ClaimOffer() {
           <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/50">
             <div className="bg-white text-black text-center p-8 rounded-xl shadow-xl text-2xl font-bold">
               🎉 Congratulations! 🎉<br />
-              Redirecting to WhatsApp...
+                 wait a second .....
             </div>
           </div>
         </>
