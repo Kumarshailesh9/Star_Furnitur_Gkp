@@ -1,345 +1,229 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import Image from "next/image"
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import {
   Menu,
   Search,
   ChevronDown,
-  Phone,
   Home,
-  Sofa,
   Bed,
+  Sofa,
   Coffee,
   Package,
-  Crown,
-  Diamond,
-  Sparkles,
-  Star,
   Paintbrush,
   Settings,
   CalendarClock,
   Hammer,
-} from "lucide-react"
-import { motion, AnimatePresence } from "framer-motion"
+} from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-// import { ThemeToggle } from "@/components/theme-toggle"
-import { ColorThemeSelector } from "@/components/color-theme-selector"
-import { SearchBar } from "@/components/search-bar"
-import { ScrollingMarquee } from "@/components/scrolling-marquee"
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ColorThemeSelector } from "@/components/color-theme-selector";
+import { SearchBar } from "@/components/search-bar";
+import { ScrollingMarquee } from "@/components/scrolling-marquee";
 
 export default function Header() {
-  const [isSearchOpen, setIsSearchOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
-  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false)
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 
-  // Promotional messages for the marquee
   const promotionalMessages = [
     "🌧️ Premium Monsoon Bundle Sale - Limited Time Offer!",
     "🏠 Complete Home Package - 9 Essential Items at One Incredible Price!",
     "🛍️ Free Delivery on Orders Above ₹50000",
     "⭐ New Designer Collections Now Available",
     "🔥 Flash Sale - Up to 40% Off on Selected Items",
-  ]
+  ];
 
-  // Handle scroll effect
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true)
-      } else {
-        setIsScrolled(false)
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
-  // Navigation items array
-  const navigationItems = [
-    { name: "Home", href: "/" },
-    {
-      name: "Furniture",
-      href: "#",
-      children: [
-        { name: "Beds & Mattresses", href: "/category/beds" },
-        { name: "Sofas & Sectionals", href: "/category/sofas" },
-        { name: "Dining Sets", href: "/category/dining" },
-        { name: "Storage Solutions", href: "/category/storage" },
-        { name: "Office Furniture", href: "/category/office" },
-        { name: "Tables", href: "/category/tables" },
-        { name: "Chairs", href: "/category/chairs" },
-        { name: "Modular Kitchen", href: "/category/kitchen" },
-      ],
-    },
-    
-    {
-      name: "Other Services",
-      href: "#",
-      children: [
-        { name: "Interior Design", href: "/services/interior-design" },
-        { name: "Custom Furniture", href: "/services/custom" },
-        { name: "Furniture Rental", href: "/services/rental" },
-        { name: "Restoration", href: "/services/restoration" },
-      ],
-    },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
-  ]
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur transition-all duration-300 ${
-        isScrolled ? "shadow-md" : ""
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+        isScrolled ? "shadow-lg" : ""
       }`}
     >
-      {/* Promotional Marquee - New Addition */}
+      {/* Marquee */}
       <ScrollingMarquee
         messages={promotionalMessages}
         speed="normal"
-        pauseOnHover={true}
-        backgroundColor="bg-gradient-to-r from-purple-700 to-pink-600"
+        pauseOnHover
+        backgroundColor="bg-gradient-to-r from-cyan-800 to-emerald-700"
         textColor="text-white"
-        className="py-1.5 text-sm font-medium"
+        className="py-1.5 text-xs sm:text-sm font-semibold"
       />
 
-      {/* Top Bar - Only visible on larger screens */}
-      <div className="hidden md:flex justify-between items-center py-2 px-4 md:px-6 text-xs bg-muted">
-        <div className="flex items-center">
-          <Phone className="h-3 w-3 mr-1" />
-          <span>Call us: +91 9876543210</span>
-        </div>
-        <div>
-          <span className="px-2 border-r">Free shipping on orders above ₹50000</span>
-          <span className="px-2">30-day returns</span>
-        </div>
-      </div>
-
-      {/* Main Header */}
-      <div className="container mx-auto px-3 py-2 md:px-6 md:py-4">
-        <div className="flex items-center justify-between relative">
-          {/* Mobile Menu */}
+      {/* Main Bar */}
+      <div
+        className="backdrop-blur bg-white/10 border-b border-white/10 transition-colors duration-300"
+      >
+        <div className="container mx-auto px-4 py-2 md:px-8 md:py-4 flex justify-between items-center">
+          {/* Mobile menu */}
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
-                <Menu className="h-5 w-5" />
-                <span className="sr-only">Toggle menu</span>
+                <Menu className="h-5 w-5 text-white" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[80vw] max-w-[300px] p-0">
+            <SheetContent side="left" className="w-[80vw] max-w-[300px] p-0 bg-background/80 backdrop-blur-lg">
               <div className="flex flex-col h-full">
                 <div className="p-4 border-b">
-                  <Link href="/" className="flex items-center" onClick={() => document.body.click()}>
+                  <Link href="/" className="flex items-center">
                     <div className="relative h-8 w-8 mr-2">
-                      <Image src="/logo-icon.png" alt="GKP Furniture Logo" fill className="object-contain" />
+                      <Image src="/logo-icon.png" alt="Logo" fill className="object-contain" />
                     </div>
-                    <span className="font-semibold text-lg"></span>
+                    <span className="font-bold text-lg">GKP</span>
                   </Link>
                 </div>
 
-                <nav className="flex-1 overflow-auto p-4">
-                  <div className="space-y-6">
-                    <SheetClose asChild>
-                      <Link href="/" className="flex items-center gap-2 py-2 text-lg font-medium">
-                        <Home className="h-5 w-5" />
-                        Home
-                      </Link>
-                    </SheetClose>
+                <nav className="flex-1 overflow-auto p-4 space-y-6">
+                  <SheetClose asChild>
+                    <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium">
+                      <Home className="h-5 w-5" /> Home
+                    </Link>
+                  </SheetClose>
 
-                    <div className="space-y-3">
-                      <h3 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">Categories</h3>
-                      <div className="space-y-2 pl-1">
-                        <SheetClose asChild>
-                          <Link href="/category/beds" className="flex items-center gap-2 py-2">
-                            <Bed className="h-4 w-4" />
-                            <span>Beds & Mattresses</span>
+                  <div className="space-y-4">
+                    <h3 className="text-xs uppercase text-muted-foreground tracking-wide">Categories</h3>
+                    <div className="pl-1 space-y-2">
+                      {[
+                        { href: "/category/beds", label: "Beds & Mattresses", icon: Bed },
+                        { href: "/category/sofas", label: "Sofas & Sectionals", icon: Sofa },
+                        { href: "/category/dining", label: "Dining Sets", icon: Coffee },
+                        { href: "/category/storage", label: "Storage Solutions", icon: Package },
+                      ].map(({ href, label, icon: Icon }) => (
+                        <SheetClose asChild key={href}>
+                          <Link href={href} className="flex items-center gap-2 py-2">
+                            <Icon className="h-4 w-4" /> {label}
                           </Link>
                         </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/category/sofas" className="flex items-center gap-2 py-2">
-                            <Sofa className="h-4 w-4" />
-                            <span>Sofas & Sectionals</span>
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/category/dining" className="flex items-center gap-2 py-2">
-                            <Coffee className="h-4 w-4" />
-                            <span>Dining Sets</span>
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/category/storage" className="flex items-center gap-2 py-2">
-                            <Package className="h-4 w-4" />
-                            <span>Storage Solutions</span>
-                          </Link>
-                        </SheetClose>
-                      </div>
+                      ))}
                     </div>
+                  </div>
 
-                    <div className="space-y-3">
-                      <h3 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">
-                        Other Services
-                      </h3>
-                      <div className="space-y-2 pl-1">
-                        <SheetClose asChild>
-                          <Link href="/services/interior-design" className="flex items-center gap-2 py-2">
-                            <Paintbrush className="h-4 w-4" />
-                            <span>Interior Design</span>
+                  <div className="space-y-4">
+                    <h3 className="text-xs uppercase text-muted-foreground tracking-wide">Services</h3>
+                    <div className="pl-1 space-y-2">
+                      {[
+                        { href: "/services/interior-design", label: "Interior Design", icon: Paintbrush },
+                        { href: "/services/custom", label: "Custom Furniture", icon: Settings },
+                        { href: "/services/rental", label: "Furniture Rental", icon: CalendarClock },
+                      ].map(({ href, label, icon: Icon }) => (
+                        <SheetClose asChild key={href}>
+                          <Link href={href} className="flex items-center gap-2 py-2">
+                            <Icon className="h-4 w-4" /> {label}
                           </Link>
                         </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/services/custom" className="flex items-center gap-2 py-2">
-                            <Settings className="h-4 w-4" />
-                            <span>Custom Furniture</span>
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/services/rental" className="flex items-center gap-2 py-2">
-                            <CalendarClock className="h-4 w-4" />
-                            <span>Furniture Rental</span>
-                          </Link>
-                        </SheetClose>
-                      </div>
+                      ))}
                     </div>
+                  </div>
 
-                    <div className="space-y-3">
-                      <h3 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">
-                        Information
-                      </h3>
-                      <div className="space-y-2 pl-1">
-                        <SheetClose asChild>
-                          <Link href="/best-sellers" className="flex items-center gap-2 py-2">
-                            Best Sellers
+                  <div className="space-y-4">
+                    <h3 className="text-xs uppercase text-muted-foreground tracking-wide">Info</h3>
+                    <div className="pl-1 space-y-2">
+                      {[
+                        { href: "/about", label: "About Us" },
+                        { href: "/contact", label: "Contact Us" },
+                      ].map(({ href, label }) => (
+                        <SheetClose asChild key={href}>
+                          <Link href={href} className="flex items-center gap-2 py-2">
+                            {label}
                           </Link>
                         </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/about" className="flex items-center gap-2 py-2">
-                            About Us
-                          </Link>
-                        </SheetClose>
-                        <SheetClose asChild>
-                          <Link href="/contact" className="flex items-center gap-2 py-2">
-                            Contact Us
-                          </Link>
-                        </SheetClose>
-                      </div>
+                      ))}
                     </div>
                   </div>
                 </nav>
-
-                {/* <div className="p-4 border-t">
-                  <div className="flex items-center justify-between">
-                    <ThemeToggle />
-                    <ColorThemeSelector />
-                  </div>
-                </div> */}
               </div>
             </SheetContent>
           </Sheet>
 
           {/* Logo */}
           <Link href="/" className="flex items-center mx-auto md:mx-0">
-            <div className="relative h-8 w-8 mr-2">
-              <Image src="/logo-icon.png" alt="GKP Furniture Logo" fill className="object-contain" />
+            <div className="relative h-12 w-32">
+              <Image src="/logo.png" alt="Logo" fill className="object-contain" />
             </div>
-          <span className="inline-block leading-1 ">
-            <span className="font-bold text-xl block">Star Furniture</span>
-            <span className="font-normal text-sm ">And Electronics</span>
-          </span>
           </Link>
 
-          {/* Desktop Navigation - Hidden on mobile */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="/" className="text-sm font-medium hover:text-primary transition-colors">
+          {/* Desktop nav */}
+          <nav className="hidden md:flex items-center gap-6 text-white">
+            <Link href="/" className="text-sm font-medium hover:text-yellow-300 transition">
               Home
             </Link>
+
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-primary transition-colors">
+              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-yellow-300 transition">
                 Shop By Category <ChevronDown className="h-4 w-4 ml-1" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-[200px]">
-                <DropdownMenuItem asChild>
-                  <Link href="/category/beds" className="flex items-center gap-2">
-                    <Bed className="h-4 w-4" />
-                    Beds & Mattresses
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/category/sofas" className="flex items-center gap-2">
-                    <Sofa className="h-4 w-4" />
-                    Sofas & Sectionals
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/category/dining" className="flex items-center gap-2">
-                    <Coffee className="h-4 w-4" />
-                    Dining Sets
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/category/storage" className="flex items-center gap-2">
-                    <Package className="h-4 w-4" />
-                    Storage Solutions
-                  </Link>
-                </DropdownMenuItem>
+              <DropdownMenuContent align="center" className="w-48 backdrop-blur bg-white/10 border border-white/20">
+                {[
+                  { href: "/category/beds", label: "Beds & Mattresses", icon: Bed },
+                  { href: "/category/sofas", label: "Sofas & Sectionals", icon: Sofa },
+                  { href: "/category/dining", label: "Dining Sets", icon: Coffee },
+                  { href: "/category/storage", label: "Storage Solutions", icon: Package },
+                ].map(({ href, label, icon: Icon }) => (
+                  <DropdownMenuItem asChild key={href}>
+                    <Link href={href} className="flex items-center gap-2">
+                      <Icon className="h-4 w-4" /> {label}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
 
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-primary transition-colors">
+              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-yellow-300 transition">
                 Other Services <ChevronDown className="h-4 w-4 ml-1" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-[200px]">
-                
-                <DropdownMenuItem asChild>
-                  <Link href="/services/custom" className="flex items-center gap-2">
-                    <Settings className="h-4 w-4" />
-                    Custom Furniture
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/rental" className="flex items-center gap-2">
-                    <CalendarClock className="h-4 w-4" />
-                    Furniture Rental
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem asChild>
-                  <Link href="/services/restoration" className="flex items-center gap-2">
-                    <Hammer className="h-4 w-4" />
-                    Restoration
-                  </Link>
-                </DropdownMenuItem>
+              <DropdownMenuContent align="center" className="w-48 backdrop-blur bg-white/10 border border-white/20">
+                {[
+                  { href: "/services/custom", label: "Custom Furniture", icon: Settings },
+                  { href: "/services/rental", label: "Furniture Rental", icon: CalendarClock },
+                  { href: "/services/restoration", label: "Restoration", icon: Hammer },
+                ].map(({ href, label, icon: Icon }) => (
+                  <DropdownMenuItem asChild key={href}>
+                    <Link href={href} className="flex items-center gap-2">
+                      <Icon className="h-4 w-4" /> {label}
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
 
-           
-            <Link href="/about" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/about" className="text-sm font-medium hover:text-yellow-300 transition">
               About Us
             </Link>
-            <Link href="/contact" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link href="/contact" className="text-sm font-medium hover:text-yellow-300 transition">
               Contact Us
             </Link>
           </nav>
 
-          {/* Actions */}
-          <div className="flex items-center gap-1 md:gap-2">
-            {/* Mobile Search Toggle */}
+          {/* Search */}
+          <div className="flex items-center gap-2">
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden"
+              className="md:hidden text-white"
               onClick={() => setIsMobileSearchOpen(!isMobileSearchOpen)}
             >
               <Search className="h-5 w-5" />
-              <span className="sr-only">Search</span>
             </Button>
 
-            {/* Desktop Search */}
             <div className="hidden md:block">
               <AnimatePresence>
                 {isSearchOpen ? (
@@ -350,48 +234,38 @@ export default function Header() {
                     exit={{ width: 0, opacity: 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <SearchBar
-                      className="w-[250px]"
-                      onClose={() => {
-                        setIsSearchOpen(false)
-                      }}
-                      autoFocus
-                    />
+                    <SearchBar className="w-[250px]" onClose={() => setIsSearchOpen(false)} autoFocus />
                   </motion.div>
                 ) : (
-                  <Button variant="ghost" size="icon" onClick={() => setIsSearchOpen(true)}>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-white"
+                    onClick={() => setIsSearchOpen(true)}
+                  >
                     <Search className="h-5 w-5" />
-                    <span className="sr-only">Search</span>
                   </Button>
                 )}
               </AnimatePresence>
             </div>
-
-            {/* Desktop Only Controls */}
-            {/* <div className="hidden md:flex items-center gap-1">
-              <ThemeToggle />
-              <ColorThemeSelector />
-            </div> */}
           </div>
         </div>
 
-        {/* Mobile Search Bar - Expandable */}
+        {/* Mobile Search */}
         <AnimatePresence>
           {isMobileSearchOpen && (
             <motion.div
-              className="mt-2 md:hidden"
+              className="mt-2 md:hidden px-4"
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="pb-2">
-                <SearchBar className="w-full" onClose={() => setIsMobileSearchOpen(false)} autoFocus />
-              </div>
+              <SearchBar className="w-full" onClose={() => setIsMobileSearchOpen(false)} autoFocus />
             </motion.div>
           )}
         </AnimatePresence>
       </div>
     </header>
-  )
+  );
 }

@@ -131,7 +131,7 @@ export const products: Record<string, Product> = {
     ],
     relatedProducts: [
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -498,10 +498,10 @@ export const products: Record<string, Product> = {
   "luxe-sofa": {
     id: "sofa-001",
     slug: "luxe-sofa",
-    name: "Luxe 3-Seater Sofa",
+    name: "Luxe 5-Seater Sofa",
     price: 32999,
     description:
-      "Transform your living space with our Luxe 3-Seater Sofa, the perfect blend of contemporary design and everyday comfort. Featuring premium upholstery and cushioning, this sofa creates an inviting atmosphere for family gatherings and entertaining guests.",
+      "Transform your living space with our Luxe 5-Seater Sofa, the perfect blend of contemporary design and everyday comfort. Featuring premium upholstery and cushioning, this sofa creates an inviting atmosphere for family gatherings and entertaining guests.",
     rating: 4.7,
     reviewCount: 98,
     category: "sofas",
@@ -524,19 +524,19 @@ export const products: Record<string, Product> = {
     images: [
       {
         src: "/products/elegant-sofa-full.jpg",
-        alt: "Luxe 3-Seater Sofa - Front View",
+        alt: "Luxe 5-Seater Sofa - Front View",
       },
       {
         src: "/products/elegant-sofa-detail.png",
-        alt: "Luxe 3-Seater Sofa - Detail View",
+        alt: "Luxe 5-Seater Sofa - Detail View",
       },
       {
         src: "/products/elegant-sofa-angle.png",
-        alt: "Luxe 3-Seater Sofa - Angle View",
+        alt: "Luxe 5-Seater Sofa - Angle View",
       },
       {
         src: "/products/elegant-sofa-back.png",
-        alt: "Luxe 3-Seater Sofa - Back View",
+        alt: "Luxe 5-Seater Sofa - Back View",
       },
     ],
     colors: ["Navy Blue", "Charcoal Grey", "Emerald Green", "Beige"],
@@ -674,7 +674,7 @@ export const products: Record<string, Product> = {
         href: "/product/comfort-plus-bed",
       },
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -982,7 +982,7 @@ export const products: Record<string, Product> = {
         href: "/product/comfort-plus-bed",
       },
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -1282,7 +1282,7 @@ export const products: Record<string, Product> = {
     ],
     relatedProducts: [
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -1486,7 +1486,7 @@ export const products: Record<string, Product> = {
     ],
     relatedProducts: [
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -2312,7 +2312,7 @@ export const products: Record<string, Product> = {
         href: "/product/nesting-tables",
       },
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,
@@ -2393,7 +2393,7 @@ export const products: Record<string, Product> = {
     ],
     relatedProducts: [
       {
-        name: "Luxe 3-Seater Sofa",
+        name: "Luxe 5-Seater Sofa",
         price: 32999,
         image: "/elegant-three-seater-sofa.png",
         rating: 4.7,

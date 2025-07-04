@@ -10,15 +10,15 @@ interface Product {
 }
 
 const products: Product[] = [
-  { name: "Double Bed", desc: "6×6 Size", icon: "/cozy-double-bed.png" },
-  { name: "Sofa Set", desc: "5 Seater", icon: "/comfortable-living-room-set.png" },
-  { name: "Center Table", desc: "Premium", icon: "/ornate-center-table.png" },
-  { name: "Dressing Table", desc: "With Mirror", icon: "/ornate-dressing-table.png" },
-  { name: "Almirah", desc: "Spacious", icon: "/classic-wooden-wardrobe.png" },
-  { name: "Cooler", desc: "Energy Saving", icon: "/placeholder-et8xm.png" },
-  { name: "Refrigerator", desc: "Double Door", icon: "/modern-refrigerator.png" },
-  { name: "Washing Machine", desc: "Fully Auto", icon: "/modern-washing-machine.png" },
-  { name: "Mattress", desc: "Orthopedic", icon: "/comfortable-mattress.png" },
+  { name: "Double Bed", desc: "6×6 Size", icon: "/images/bed.png" },
+  { name: "Sofa Set", desc: "5 Seater", icon: "/images/sofa-set.png" },
+  { name: "Center Table", desc: "Premium", icon: "/images/center-table.png" },
+  { name: "Dressing Table", desc: "With Mirror", icon: "/images/dressing-table.png" },
+  { name: "Almirah", desc: "Spacious", icon: "/images/alhmira.png" },
+  { name: "Cooler", desc: "Energy Saving", icon: "/images/cooler.png" },
+  { name: "Refrigerator", desc: "Double Door", icon: "/images/Refrigerator.png" },
+  { name: "Washing Machine", desc: "Fully Auto", icon: "/images/washing-machine.png" },
+  { name: "Mattress", desc: "Orthopedic", icon: "/images/matters11.png" },
 ];
 
 export default function ProductGrid() {
