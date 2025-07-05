@@ -5,7 +5,6 @@ import { ChevronRight, Truck, Shield, Clock, ThumbsUp, ArrowRight, Sparkles, Mes
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
-import ProductCard from "@/components/product-card"
 import TestimonialCard from "@/components/testimonial-card"
 import CategoryCard from "@/components/category-card"
 import { AnimatedSection } from "@/components/animated-section"
