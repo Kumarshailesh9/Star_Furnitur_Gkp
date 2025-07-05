@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Sparkles, ArrowRight, Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { CountdownTimer } from "./countdown-timer"
+
 import { RainAnimation } from "./rain-animation"
 import { FloatingParticles } from "./floating-particles"
 
@@ -14,7 +14,7 @@ export function MonsoonSalePromo() {
 
   // Set end date to August 20th of current year
   const currentYear = new Date().getFullYear()
-  const saleEndDate = new Date(currentYear, 6, 20, 23, 59, 59) // Month is 0-indexed, so 7 is August
+  const saleEndDate = new Date(currentYear, 6, 25, 23, 59, 59) // Month is 0-indexed, so 7 is August
 
   useEffect(() => {
     setIsMounted(true)
@@ -55,10 +55,7 @@ export function MonsoonSalePromo() {
         </div>
 
         {/* Countdown timer */}
-        <div className="mb-10 sm:mb-12">
-          <p className="text-center text-white text-sm sm:text-base mb-4">Sale Ends In:</p>
-          <CountdownTimer endDate={saleEndDate} />
-        </div>
+        
 
         {/* Products grid */}
         <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 sm:p-8 mb-10 border border-white/20 shadow-xl">
@@ -154,3 +151,4 @@ export function MonsoonSalePromo() {
     </section>
   )
 }
+

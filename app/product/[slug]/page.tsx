@@ -6,8 +6,7 @@ import { ChevronRight, Minus, Plus, Share2, Truck, RotateCcw, Shield, Star, Chec
 
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+
 
 import ProductCard from "@/components/product-card"
 import { getProductBySlug } from "@/lib/products"

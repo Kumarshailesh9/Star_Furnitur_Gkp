@@ -10,10 +10,10 @@ interface Product {
 }
 
 const products: Product[] = [
-  { name: "Double Bed", desc: "6×6 Size", icon: "/images/bed.png" },
+  { name: "Double Bed", desc: "6×6 Size", icon: "/images/particle-bed.jpg" },
   { name: "Sofa Set", desc: "5 Seater", icon: "/images/sofa-set.png" },
-  { name: "Center Table", desc: "Premium", icon: "/images/center-table.png" },
-  { name: "Dressing Table", desc: "With Mirror", icon: "/images/dressing-table.png" },
+  { name: "Center Table", desc: "Premium", icon: "/images/dressing-table.png" },
+  { name: "Dressing Table", desc: "With Mirror", icon: "/images/dressing.jpg" },
   { name: "Almirah", desc: "Spacious", icon: "/images/alhmira.png" },
   { name: "Cooler", desc: "Energy Saving", icon: "/images/cooler.png" },
   { name: "Refrigerator", desc: "Double Door", icon: "/images/Refrigerator.png" },

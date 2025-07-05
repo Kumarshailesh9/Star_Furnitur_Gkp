@@ -11,6 +11,7 @@ import CategoryCard from "@/components/category-card"
 import { AnimatedSection } from "@/components/animated-section"
 import { PremiumBedsShowcase } from "@/components/premium-beds-showcase"
 import MansoonOffer from '@/components/MonsoonOffer'
+import { USP } from "@/components/Usp"
 
 export default function Home() {
   return (
@@ -103,66 +104,8 @@ export default function Home() {
   </div>
 </AnimatedSection>
 
-
-
       {/* Premium Beds Showcase Section */}
       <PremiumBedsShowcase />
-
-      
-
-      {/* Best Sellers Section */}
-      <AnimatedSection className="py-6 sm:py-8 md:py-10 px-4 md:px-6 max-w-7xl mx-auto">
-  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4 sm:mb-6">
-    <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">
-      Best Sellers
-    </h2>
-    <Link
-      href="/best-sellers"
-      className="mt-2 sm:mt-0 text-primary flex items-center text-xs sm:text-sm font-medium hover:underline"
-    >
-      View All <ChevronRight className="h-3 w-3 sm:h-4 sm:w-4 ml-1" />
-    </Link>
-  </div>
-
-  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
-    <ProductCard
-      name="Comfort Plus Queen Bed"
-      price={24999}
-      image="/minimalist-wood-bed.png"
-      rating={4.8}
-      reviewCount={124}
-      href="/product/comfort-plus-bed"
-    />
-    <ProductCard
-      name="Luxe 5-Seater Sofa"
-      price={32999}
-      image="/refined-linen-sofa.png"
-      rating={4.7}
-      reviewCount={98}
-      href="/product/luxe-sofa"
-    />
-    <ProductCard
-      name="Classic Dining Set (6 Seater)"
-      price={28999}
-      image="/rustic-wood-dining-set.png"
-      rating={4.9}
-      reviewCount={75}
-      href="/product/classic-dining-set"
-      discount={10}
-    />
-    <ProductCard
-      name="FURNY Luno 4 Seater Fabric LHS Sectional L Shape Sofa Set"
-      price={39999}
-      image="/rustic-wood-dining-set.png"
-      rating={4.9}
-      reviewCount={75}
-      href="/product/classic-dining-set"
-      discount={10}
-    />
-  </div>
-</AnimatedSection>
-
-
 
       {/* Testimonials Section */}
       <AnimatedSection className="py-8 sm:py-10 md:py-12 lg:py-16 px-4 md:px-6 max-w-7xl mx-auto">
@@ -230,6 +173,7 @@ export default function Home() {
         </div>
       </section>
       </AnimatedSection>
+      <USP/>
     </>
   )
 }
