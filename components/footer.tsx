@@ -10,12 +10,9 @@ import {
   Instagram,
   Twitter,
   ExternalLink,
-  Truck,
-  Shield,
-  ThumbsUp,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { AnimatedSection } from "@/components/animated-section"
+
 
 export function Footer() {
   const storeLocation = {

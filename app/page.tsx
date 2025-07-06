@@ -1,4 +1,3 @@
-import Link from "next/link"
 import Image from "next/image"
 import { ChevronRight, Truck, Shield, Clock, ThumbsUp, ArrowRight, Sparkles, MessageCircle, Check } from "lucide-react"
 
@@ -11,6 +10,7 @@ import { AnimatedSection } from "@/components/animated-section"
 import { PremiumBedsShowcase } from "@/components/premium-beds-showcase"
 import MansoonOffer from '@/components/MonsoonOffer'
 import { USP } from "@/components/Usp"
+import PremiumBedsCollection from "@/components/PremiumBedsCollection"
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
 
       <AnimatedSection delay={0.4} direction="left">
         <p className="text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 md:mb-10 max-w-2xl drop-shadow-md">
-          Discover Premium Furniture at GKP Furniture — Where Quality Craftsmanship Meets Affordable Luxury.
+          Discover Premium Furniture at Star Furniture — Where Quality Craftsmanship Meets Affordable Luxury.
         </p>
       </AnimatedSection>
 
@@ -103,15 +103,16 @@ export default function Home() {
   </div>
 </AnimatedSection>
 
-      {/* Premium Beds Showcase Section */}
-      <PremiumBedsShowcase />
+      
+      <PremiumBedsCollection />
+
 
       {/* Testimonials Section */}
       <AnimatedSection className="py-8 sm:py-10 md:py-12 lg:py-16 px-4 md:px-6 max-w-7xl mx-auto">
         <div className="text-center mb-6 md:mb-10">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 md:mb-4">What Our Customers Say</h2>
           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our happy customers have to say about their GKP Furniture
+            Don't just take our word for it. Here's what our happy customers have to say about their Star Furniture
             experience.
           </p>
         </div>
@@ -123,7 +124,7 @@ export default function Home() {
               location="Delhi"
               image="/serene-indian-woman.png"
               rating={5}
-              testimonial="The quality of my new sofa is exceptional. The customer service was also top-notch from ordering to delivery. Highly recommend GKP Furniture!"
+              testimonial="The quality of my new sofa is exceptional. The customer service was also top-notch from ordering to delivery. Highly recommend Star Furniture!"
             />
           </AnimatedSection>
           <AnimatedSection delay={0.2} direction="up">

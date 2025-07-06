@@ -27,7 +27,7 @@ export default function ContactPage() {
               <Phone className="h-5 w-5 mr-3 mt-1 text-primary" />
               <div>
                 <h3 className="font-medium">Phone</h3>
-                <p className="text-muted-foreground">+91 9876543210</p>
+                <p className="text-muted-foreground">+91 7651847029</p>
                 <p className="text-muted-foreground">+91 9876543211</p>
               </div>
             </div>
@@ -111,7 +111,6 @@ export default function ContactPage() {
             address={storeLocation.address}
             latitude={storeLocation.latitude}
             longitude={storeLocation.longitude}
-            height="500px"
             className="mb-4"
           />
 

@@ -11,7 +11,7 @@ export default function StoragePage() {
     name: "Almirah",
     desc:
       "Spacious and elegant almirah with sturdy shelves and secure lock — keeps your clothes and essentials organized beautifully.",
-    price: 17000,
+    price: 28000,
     image: "/images/alhmira.png", // Ensure you have this image in your public/images folder
   }
 

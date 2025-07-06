@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { useEffect, useState } from "react";
+import { useConfetti } from "@/app/contexts/ConfettiContext";
 
 interface Product {
   name: string;
@@ -11,6 +13,13 @@ interface Product {
 }
 
 export default function ItemDetails() {
+  const { setShowConfetti } = useConfetti();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  useEffect(() => {
+    setShowConfetti(false);
+  }, [setShowConfetti]);
+
   const products: Product[] = [
     {
       name: "Double Particle Bed",
@@ -72,7 +81,8 @@ export default function ItemDetails() {
         {products.map((product, idx) => (
           <div
             key={idx}
-            className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg flex flex-col"
+            className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg flex flex-col cursor-pointer"
+            onClick={() => setSelectedImage(product.icon)}
           >
             <div className="relative w-full h-48">
               <Image
@@ -92,19 +102,43 @@ export default function ItemDetails() {
         ))}
       </div>
 
-      {/* Flexible order bar — appears after content */}
+      {/* Modal Overlay */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[9999]"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative w-11/12 md:w-2/3 lg:w-1/2 h-60">
+            <Image
+              src={selectedImage}
+              alt="Full view"
+              width={1000}
+              height={800}
+              className="object-contain rounded-xl"
+            />
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 text-white text-2xl font-bold"
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Flexible order bar */}
       <div className="mt-12 bg-white border-t border-gray-300 flex flex-col sm:flex-row justify-between items-center px-6 py-6 shadow-md rounded-xl">
         <div className="flex items-center">
-                <span className="text-black text-2xl md:text-3xl font-extrabold">
-                  ₹96,428
-                </span>
-                <span className="text-gray-300 text-sm md:text-base line-through ml-3">
-                  ₹1,28,570
-                </span>
-                <Badge className="bg-yellow-400 text-black ml-3 px-3">
-                  25% OFF
-                </Badge>
-              </div>
+          <span className="text-black text-2xl md:text-3xl font-extrabold">
+            ₹96,428
+          </span>
+          <span className="text-gray-300 text-sm md:text-base line-through ml-3">
+            ₹1,28,570
+          </span>
+          <Badge className="bg-yellow-400 text-black ml-3 px-3">
+            25% OFF
+          </Badge>
+        </div>
         <Button
           onClick={() =>
             window.open(

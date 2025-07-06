@@ -14,7 +14,6 @@ import {
   Paintbrush,
   Settings,
   CalendarClock,
-  Hammer,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -48,8 +47,8 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled ? "shadow-lg" : ""
+      className={`sticky top-0 z-50 w-full transition-shadow duration-300 ${
+        isScrolled ? "shadow-md" : ""
       }`}
     >
       {/* Marquee */}
@@ -63,29 +62,28 @@ export default function Header() {
       />
 
       {/* Main Bar */}
-      <div className="bg-white border-b border-gray-200">
-        <div className="container mx-auto px-4 py-2 md:px-8 md:py-4 flex justify-between items-center">
+      <div className="bg-white border-b-2 border-emerald-600">
+        <div className="container mx-auto px-4 py-3 md:px-8 flex justify-between items-center">
           {/* Mobile menu */}
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
-                <Menu className="h-5 w-5 text-black" />
+                <Menu className="h-6 w-6 text-gray-800" />
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-[80vw] max-w-[300px] p-0 bg-white">
               <div className="flex flex-col h-full">
-                <div className="p-4 border-b">
+                <div className="p-4 border-b border-gray-200">
                   <Link href="/" className="flex items-center">
-                    <div className="relative h-8 w-8 mr-2">
-                      <Image src="/logo-icon.png" alt="Logo" fill className="object-contain" />
+                    <div className="relative h-10 w-40">
+                      <Image src="/logo.png" alt="Logo" fill className="object-contain" priority />
                     </div>
-                    <span className="font-bold text-lg text-black">GKP</span>
                   </Link>
                 </div>
 
-                <nav className="flex-1 overflow-auto p-4 space-y-6 text-black">
+                <nav className="flex-1 overflow-auto p-4 space-y-6 text-gray-800">
                   <SheetClose asChild>
-                    <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium">
+                    <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
                       <Home className="h-5 w-5" /> Home
                     </Link>
                   </SheetClose>
@@ -100,7 +98,10 @@ export default function Header() {
                         { href: "/category/storage", label: "Storage Solutions", icon: Package },
                       ].map(({ href, label, icon: Icon }) => (
                         <SheetClose asChild key={href}>
-                          <Link href={href} className="flex items-center gap-2 py-2">
+                          <Link
+                            href={href}
+                            className="flex items-center gap-2 py-2 hover:text-emerald-600 transition"
+                          >
                             <Icon className="h-4 w-4" /> {label}
                           </Link>
                         </SheetClose>
@@ -117,7 +118,10 @@ export default function Header() {
                         { href: "/services/rental", label: "Furniture Rental", icon: CalendarClock },
                       ].map(({ href, label, icon: Icon }) => (
                         <SheetClose asChild key={href}>
-                          <Link href={href} className="flex items-center gap-2 py-2">
+                          <Link
+                            href={href}
+                            className="flex items-center gap-2 py-2 hover:text-emerald-600 transition"
+                          >
                             <Icon className="h-4 w-4" /> {label}
                           </Link>
                         </SheetClose>
@@ -133,7 +137,10 @@ export default function Header() {
                         { href: "/contact", label: "Contact Us" },
                       ].map(({ href, label }) => (
                         <SheetClose asChild key={href}>
-                          <Link href={href} className="flex items-center gap-2 py-2">
+                          <Link
+                            href={href}
+                            className="flex items-center gap-2 py-2 hover:text-emerald-600 transition"
+                          >
                             {label}
                           </Link>
                         </SheetClose>
@@ -146,23 +153,29 @@ export default function Header() {
           </Sheet>
 
           {/* Logo */}
-          <Link href="/" className="flex items-center mx-auto md:mx-0">
-            <div className="relative h-12 w-32">
-              <Image src="/logo.png" alt="Logo" fill className="object-contain" />
+          <Link href="/" className="flex items-center gap-2">
+            <div className="relative h-10 w-40 md:h-12 md:w-48">
+              <Image src="/logo.png" alt="Logo" fill className="object-contain" priority />
             </div>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6 text-black">
-            <Link href="/" className="text-sm font-medium hover:text-emerald-600 transition">
+          <nav className="hidden md:flex items-center gap-8 text-gray-800">
+            <Link
+              href="/"
+              className="text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition"
+            >
               Home
             </Link>
 
             <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-emerald-600 transition">
+              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition">
                 Shop By Category <ChevronDown className="h-4 w-4 ml-1" />
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-48 bg-white border border-gray-200">
+              <DropdownMenuContent
+                align="center"
+                className="w-56 bg-white border border-emerald-600 rounded-lg shadow-xl p-2"
+              >
                 {[
                   { href: "/category/beds", label: "Beds & Mattresses", icon: Bed },
                   { href: "/category/sofas", label: "Sofas & Sectionals", icon: Sofa },
@@ -170,7 +183,10 @@ export default function Header() {
                   { href: "/category/storage", label: "Storage Solutions", icon: Package },
                 ].map(({ href, label, icon: Icon }) => (
                   <DropdownMenuItem asChild key={href}>
-                    <Link href={href} className="flex items-center gap-2">
+                    <Link
+                      href={href}
+                      className="flex items-center gap-2 px-3 py-2 rounded-md hover:bg-emerald-50 transition"
+                    >
                       <Icon className="h-4 w-4" /> {label}
                     </Link>
                   </DropdownMenuItem>
@@ -178,29 +194,16 @@ export default function Header() {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <DropdownMenu>
-              <DropdownMenuTrigger className="flex items-center text-sm font-medium hover:text-emerald-600 transition">
-                Other Services <ChevronDown className="h-4 w-4 ml-1" />
-              </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="w-48 bg-white border border-gray-200">
-                {[
-                  { href: "/services/custom", label: "Custom Furniture", icon: Settings },
-                  { href: "/services/rental", label: "Furniture Rental", icon: CalendarClock },
-                  { href: "/services/restoration", label: "Restoration", icon: Hammer },
-                ].map(({ href, label, icon: Icon }) => (
-                  <DropdownMenuItem asChild key={href}>
-                    <Link href={href} className="flex items-center gap-2">
-                      <Icon className="h-4 w-4" /> {label}
-                    </Link>
-                  </DropdownMenuItem>
-                ))}
-              </DropdownMenuContent>
-            </DropdownMenu>
-
-            <Link href="/about" className="text-sm font-medium hover:text-emerald-600 transition">
+            <Link
+              href="/about"
+              className="text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition"
+            >
               About Us
             </Link>
-            <Link href="/contact" className="text-sm font-medium hover:text-emerald-600 transition">
+            <Link
+              href="/contact"
+              className="text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition"
+            >
               Contact Us
             </Link>
           </nav>

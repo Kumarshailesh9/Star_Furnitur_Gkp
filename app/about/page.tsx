@@ -37,9 +37,9 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">The GKP Furniture Journey</h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">The star Furniture Journey</h2>
               <p className="text-muted-foreground mb-4">
-                Founded in 1995 by Mr. Ramesh Kumar in Gorakhpur, Uttar Pradesh, GKP Furniture began as a modest
+                Founded in 1995 by Mr. Ramesh Kumar in Gorakhpur, Uttar Pradesh, star Furniture began as a modest
                 workshop with a simple mission: to create beautiful, durable furniture that brings comfort and joy to
                 Indian homes.
               </p>
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 craftsmanship and customer satisfaction.
               </p>
               <p className="text-muted-foreground">
-                Today, GKP Furniture continues to blend traditional woodworking techniques with modern designs, creating
+                Today, star Furniture continues to blend traditional woodworking techniques with modern designs, creating
                 pieces that are both timeless and contemporary. Our furniture is not just built to last—it's designed to
                 become a cherished part of your home and family memories.
               </p>
@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div className="text-center mb-10">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Values</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              At GKP Furniture, our values guide everything we do, from the selection of materials to the final delivery
+              At star Furniture, our values guide everything we do, from the selection of materials to the final delivery
               of your furniture.
             </p>
           </div>
