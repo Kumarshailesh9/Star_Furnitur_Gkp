@@ -95,7 +95,7 @@ export function Footer() {
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 mr-2 text-primary" />
-                +91 9876543210
+                +91 7651847029
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 mr-2 text-primary" />

@@ -64,6 +64,13 @@ export default function Header() {
       {/* Main Bar */}
       <div className="bg-white border-b-2 border-emerald-600">
         <div className="container mx-auto px-4 py-3 md:px-8 flex justify-between items-center">
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-2">
+            <div className="relative h-10 w-40 md:h-12 md:w-48">
+              <Image src="/logo.png" alt="Logo" fill className="object-contain" priority />
+            </div>
+          </Link>
+
           {/* Mobile menu */}
           <Sheet>
             <SheetTrigger asChild>
@@ -83,7 +90,10 @@ export default function Header() {
 
                 <nav className="flex-1 overflow-auto p-4 space-y-6 text-gray-800">
                   <SheetClose asChild>
-                    <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                    <Link
+                      href="/"
+                      className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition"
+                    >
                       <Home className="h-5 w-5" /> Home
                     </Link>
                   </SheetClose>
@@ -151,13 +161,6 @@ export default function Header() {
               </div>
             </SheetContent>
           </Sheet>
-
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="relative h-10 w-40 md:h-12 md:w-48">
-              <Image src="/logo.png" alt="Logo" fill className="object-contain" priority />
-            </div>
-          </Link>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8 text-gray-800">

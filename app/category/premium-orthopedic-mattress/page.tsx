@@ -41,7 +41,7 @@ export default function PremiumOrthopedicMattressPage() {
           <p className="text-xl font-bold mb-4">Price: ₹25,000</p>
 
           <a
-            href="https://wa.me/919999999999?text=I%20am%20interested%20in%20ordering%20the%20Premium%20Orthopedic%20Mattress"
+            href="https://wa.me/917651847029?text=I%20am%20interested%20in%20ordering%20the%20Premium%20Orthopedic%20Mattress"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition"
