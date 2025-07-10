@@ -2,14 +2,14 @@
 
 import { useState } from "react";
 
-export default function PremiumOrthopedicMattressPage() {
+export default function DressingTablePage() {
   const images = [
-    "/products/mat/mat1.jpg",
-    "/products/mat/mat2.jpg",
-    "/products/mat/mat3.jpg",
-    "/products/mat/mat4.jpg",
-    "/products/mat/mat5.jpg",
-    "/products/mat/mat6.jpg",
+    "/products/dressing/tab1.jpg",
+    "/products/dressing/tab2.jpg",
+    "/products/dressing/tab3.jpg",
+    "/products/dressing/tab4.jpg",
+    "/products/dressing/tab5.jpg",
+    "/products/dressing/tab6.jpg",
   ];
 
   const [mainImage, setMainImage] = useState(images[0]);
@@ -17,16 +17,16 @@ export default function PremiumOrthopedicMattressPage() {
   return (
     <main className="max-w-6xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-8 text-center">
-        Premium Orthopedic Mattress
+        Elegant Wooden Dressing Table
       </h1>
 
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        {/* ✅ Left: Main product image at natural size */}
+        {/* ✅ Left: Main Image + Thumbnails */}
         <div className="flex flex-col">
           <div className="w-full flex justify-center items-center mb-4 overflow-hidden rounded-xl shadow-md bg-white">
             <img
               src={mainImage}
-              alt="Premium Orthopedic Mattress"
+              alt="Elegant Wooden Dressing Table"
               className="max-w-full h-auto object-contain"
             />
           </div>
@@ -50,35 +50,35 @@ export default function PremiumOrthopedicMattressPage() {
           </div>
         </div>
 
-        {/* ✅ Right: Product details & description with tight spacing */}
+        {/* ✅ Right: Details & Long Description */}
         <div>
           <h2 className="text-xl font-semibold mb-3">Product Details</h2>
 
           <ul className="mb-4 space-y-1 text-gray-700 text-sm leading-tight">
             <li>
-              ✅ <strong>Type:</strong> Premium Orthopedic Mattress
+              ✅ <strong>Type:</strong> Dressing Table with Mirror & Storage
             </li>
             <li>
-              ✅ <strong>Material:</strong> High-Density Foam + Memory Foam Layers
+              ✅ <strong>Material:</strong> High-Quality Engineered Wood
             </li>
             <li>
-              ✅ <strong>Support:</strong> Superior Spine Support & Comfort
+              ✅ <strong>Finish:</strong> Premium Polish, Smooth Surface
             </li>
             <li>
-              ✅ <strong>Size:</strong> 72×70 inches (King Size)
+              ✅ <strong>Mirror:</strong> Large Premium Mirror
             </li>
             <li>
-              ✅ <strong>Features:</strong> Breathable Fabric, Anti-Sag Technology
+              ✅ <strong>Storage:</strong> Drawers, Open Shelf & Compact Stool
             </li>
             <li>
               ✅ <strong>Warranty:</strong> 5 Years
             </li>
           </ul>
 
-          <p className="text-base font-bold mb-3">Price: ₹25,000</p>
+          <p className="text-base font-bold mb-3">Price: ₹11,500</p>
 
           <a
-            href="https://wa.me/917651847029?text=I%20am%20interested%20in%20ordering%20the%20Premium%20Orthopedic%20Mattress"
+            href="https://wa.me/917651847029?text=I%20am%20interested%20in%20ordering%20the%20Elegant%20Wooden%20Dressing%20Table"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-5 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition mb-6 text-sm"
@@ -89,21 +89,21 @@ export default function PremiumOrthopedicMattressPage() {
           <div>
             <h3 className="text-lg font-semibold mb-1">Product Description</h3>
             <p className="text-gray-700 mb-2 text-sm leading-tight">
-              Introducing our Premium Orthopedic Mattress — crafted with high-density
-              foam and advanced memory foam layers for unmatched spine support and
-              restful sleep. This mattress adapts to your body shape, relieves
-              pressure points, and promotes natural alignment for healthy posture.
+              Upgrade your bedroom with our beautifully crafted wooden dressing table that blends functionality
+              with timeless elegance. Designed to meet modern lifestyle needs, this dressing table features
+              a large mirror, spacious drawers, and an open shelf for easy access to your everyday essentials.
+              Whether you're getting ready for work or a special occasion, this unit helps you stay organized in style.
             </p>
             <p className="text-gray-700 mb-2 text-sm leading-tight">
-              The breathable fabric cover keeps you cool throughout the night,
-              while the anti-sag technology ensures the mattress maintains its
-              shape and support for years. Whether you suffer from back pain or
-              simply want better sleep, this orthopedic mattress is the perfect
-              solution.
+              Constructed from high-quality engineered wood with a premium finish, the dressing table is both
+              durable and visually appealing. Its smooth surface is easy to clean, while the ample storage allows
+              you to neatly arrange cosmetics, jewelry, and grooming items. The sturdy stool and compact design
+              make it perfect for both large and small bedrooms.
             </p>
             <p className="text-gray-700 text-sm leading-tight">
-              Experience hotel-like comfort at home — backed by a 5-year warranty
-              and trusted by thousands of customers. Upgrade your sleep today!
+              Its minimalist design and neutral color tone complement any interior décor, adding charm and utility
+              to your space. Whether you are redecorating or setting up a new home, this dressing table is a
+              practical and stylish choice.
             </p>
           </div>
         </div>
