@@ -21,7 +21,6 @@ export default function SofasPage() {
     `,
     price: 27999,
     images: [
-      "/images/sofa-set.png",
       "/images/sofa1.jpg",
       "/images/sofa2.jpg",
     ],

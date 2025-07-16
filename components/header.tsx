@@ -129,25 +129,7 @@ export default function Header() {
                     </div>
                   </div>
 
-                  <div className="space-y-4">
-                    <h3 className="text-xs uppercase text-gray-500 tracking-wide">Services</h3>
-                    <div className="pl-1 space-y-2">
-                      {[
-                        { href: "/services/interior-design", label: "Interior Design", icon: Paintbrush },
-                        { href: "/services/custom", label: "Custom Furniture", icon: Settings },
-                        { href: "/services/rental", label: "Furniture Rental", icon: CalendarClock },
-                      ].map(({ href, label, icon: Icon }) => (
-                        <SheetClose asChild key={href}>
-                          <Link
-                            href={href}
-                            className="flex items-center gap-2 py-2 hover:text-emerald-600 transition"
-                          >
-                            <Icon className="h-4 w-4" /> {label}
-                          </Link>
-                        </SheetClose>
-                      ))}
-                    </div>
-                  </div>
+                  
 
                   <div className="space-y-4">
                     <h3 className="text-xs uppercase text-gray-500 tracking-wide">Info</h3>

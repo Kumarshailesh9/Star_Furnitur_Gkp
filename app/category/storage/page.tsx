@@ -13,7 +13,6 @@ export default function StoragePage() {
     images: [
       "/products/storage/st1.jpg",
       "/products/storage/st2.jpg",
-      "/products/storage/st3.jpg",
       "/products/storage/st4.jpg",
       "/products/storage/st5.jpg",
     ],

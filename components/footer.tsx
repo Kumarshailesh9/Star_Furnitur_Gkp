@@ -100,7 +100,7 @@ export function Footer() {
               </li>
               <li className="flex">
                 <Clock className="h-5 w-5 mr-2 text-primary" />
-                Mon-Sat: 10AM-8PM, Sun: 11AM-6PM
+                Sun-Mon: 10AM-8PM.
               </li>
             </ul>
           </div>

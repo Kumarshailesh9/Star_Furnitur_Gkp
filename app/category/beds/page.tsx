@@ -9,7 +9,6 @@ export default function BedsPage() {
     desc: "Modern double bed made with durable particle board, 6×6 size.",
     price: 56000,
     images: [
-      "/images/particle-bed.jpg",
       "/products/beds/bed1.jpg",
       
     ],

@@ -79,7 +79,7 @@ export default function DressingTablePage() {
             </li>
           </ul>
 
-          <p className="text-base font-bold mb-3">Price: ₹11,500</p>
+          {/* <p className="text-base font-bold mb-3">Price: ₹11,500</p> */}
 
           <a
             href="https://wa.me/917651847029?text=I%20am%20interested%20in%20ordering%20the%20Elegant%20Wooden%20Dressing%20Table"

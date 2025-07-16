@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 export function FloatingActionButtons() {
   const [isOpen, setIsOpen] = useState(false)
-  const phoneNumber = "+919876543210" // Replace with actual phone number
+  const phoneNumber = "+917651847029" 
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-4">
