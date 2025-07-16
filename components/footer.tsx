@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button"
 export function Footer() {
   const storeLocation = {
     address:
-      "Q9VC+986, near ocean 11 resort, Nakaha no 1, Ramjanki Nagar, Gorakhpur, Uttar Pradesh 273004, India",
+      "Q9V9+2W6, Gorakhnath Rd, Ghosipurwa, Vistar Colony, Gorakhpur, Uttar Pradesh 273007",
     latitude: 26.7605,
     longitude: 83.3731,
   }
@@ -29,16 +29,13 @@ export function Footer() {
 
   return (
     <footer className="mt-auto">
-      {/* USP Section */}
-      
-
       {/* 4-Part Footer */}
       <div className="bg-gray-900 text-white">
         <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* 1️⃣ Map */}
           <div className="w-full h-[250px] md:h-[300px] lg:h-[300px] relative rounded-lg overflow-hidden shadow-md">
             <iframe
-              src={`https://www.google.com/maps/embed/v1/place?q=${storeLocation.latitude},${storeLocation.longitude}&zoom=16&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8`}
+              src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.0801726621894!2d83.36074518945225!3d26.78679588699488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399145b394285a53%3A0x3c00785df2251bd5!2sGorakhnath%20Rd%2C%20Gorakhpur%2C%20Uttar%20Pradesh!5e1!3m2!1sen!2sin!4v1752666049822!5m2!1sen!2sin`}
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -99,7 +96,7 @@ export function Footer() {
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 mr-2 text-primary" />
-                info@gkpfurniture.com
+                Info@starfurnitureandelectronics.in
               </li>
               <li className="flex">
                 <Clock className="h-5 w-5 mr-2 text-primary" />

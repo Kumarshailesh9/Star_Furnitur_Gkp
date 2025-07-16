@@ -20,22 +20,23 @@ export default function PremiumOrthopedicMattressPage() {
         Premium Orthopedic Mattress
       </h1>
 
-      <div className="grid md:grid-cols-2 gap-8 items-start">
-        {/* ✅ Left: Main product image at natural size */}
+      {/* ✅ Mobile: 1 column, MD+: 2 columns */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        {/* ✅ Left: Images */}
         <div className="flex flex-col">
           <div className="w-full flex justify-center items-center mb-4 overflow-hidden rounded-xl shadow-md bg-white">
             <img
               src={mainImage}
               alt="Premium Orthopedic Mattress"
-              className="max-w-full h-auto object-contain"
+              className="w-full h-auto max-h-[500px] object-contain"
             />
           </div>
 
-          <div className="flex gap-4 overflow-x-auto hide-scrollbar">
+          <div className="flex flex-wrap gap-3 justify-center sm:justify-start">
             {images.map((img, idx) => (
               <div
                 key={idx}
-                className={`w-24 h-24 flex-shrink-0 rounded-md overflow-hidden border-2 cursor-pointer transition-all duration-200 ${
+                className={`w-20 h-20 sm:w-24 sm:h-24 rounded-md overflow-hidden border-2 cursor-pointer transition-all duration-200 ${
                   mainImage === img ? "border-green-600" : "border-transparent"
                 } hover:border-gray-400`}
                 onClick={() => setMainImage(img)}
@@ -50,29 +51,17 @@ export default function PremiumOrthopedicMattressPage() {
           </div>
         </div>
 
-        {/* ✅ Right: Product details & description with tight spacing */}
+        {/* ✅ Right: Details */}
         <div>
           <h2 className="text-xl font-semibold mb-3">Product Details</h2>
 
           <ul className="mb-4 space-y-1 text-gray-700 text-sm leading-tight">
-            <li>
-              ✅ <strong>Type:</strong> Premium Orthopedic Mattress
-            </li>
-            <li>
-              ✅ <strong>Material:</strong> High-Density Foam + Memory Foam Layers
-            </li>
-            <li>
-              ✅ <strong>Support:</strong> Superior Spine Support & Comfort
-            </li>
-            <li>
-              ✅ <strong>Size:</strong> 72×70 inches (King Size)
-            </li>
-            <li>
-              ✅ <strong>Features:</strong> Breathable Fabric, Anti-Sag Technology
-            </li>
-            <li>
-              ✅ <strong>Warranty:</strong> 5 Years
-            </li>
+            <li>✅ <strong>Type:</strong> Premium Orthopedic Mattress</li>
+            <li>✅ <strong>Material:</strong> High-Density Foam + Memory Foam Layers</li>
+            <li>✅ <strong>Support:</strong> Superior Spine Support & Comfort</li>
+            <li>✅ <strong>Size:</strong> 72×70 inches (King Size)</li>
+            <li>✅ <strong>Features:</strong> Breathable Fabric, Anti-Sag Technology</li>
+            <li>✅ <strong>Warranty:</strong> 5 Years</li>
           </ul>
 
           <p className="text-base font-bold mb-3">Price: ₹25,000</p>

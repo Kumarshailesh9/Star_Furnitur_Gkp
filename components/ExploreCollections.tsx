@@ -90,7 +90,7 @@ export default function ExploreCollections() {
         >
           {[
             {
-              title: "Beds & Mattresses",
+              title: "Beds",
               image: "/minimalist-platform-bed.png",
               href: "/category/beds",
               delay: 0.1,

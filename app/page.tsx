@@ -91,12 +91,16 @@ export default function Home() {
 
             <AnimatedSection delay={0.6} direction="up">
               <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/category/beds"
+                  >
                 <Button
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-300 shadow-xl"
                 >
                   Shop Now
                 </Button>
+                </Link>
                 <Link
                   href="https://wa.me/917651847029"
                   target="_blank"
@@ -190,7 +194,7 @@ export default function Home() {
                 <div className="flex flex-col items-center text-center p-2 sm:p-3 md:p-4">
                   <Badge className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 mb-2 md:mb-3 text-primary" />
                   <h3 className="font-medium text-xs sm:text-sm">
-                    Quality Assurance
+                    Quality Product
                   </h3>
                 </div>
               </AnimatedSection>

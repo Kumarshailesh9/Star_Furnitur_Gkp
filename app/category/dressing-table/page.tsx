@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function DressingTablePage() {
   const images = [
@@ -15,37 +16,40 @@ export default function DressingTablePage() {
   const [mainImage, setMainImage] = useState(images[0]);
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-8 text-center">
+    <main className="max-w-6xl mx-auto px-4 py-8 md:py-12">
+      <h1 className="text-3xl font-bold mb-4 text-center">
         Elegant Wooden Dressing Table
       </h1>
 
-      <div className="grid md:grid-cols-2 gap-8 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* ✅ Left: Main Image + Thumbnails */}
-        <div className="flex flex-col">
-          <div className="w-full flex justify-center items-center mb-4 overflow-hidden rounded-xl shadow-md bg-white">
-            <img
+        <div>
+          <div className="relative w-full aspect-[4/5] mb-4 overflow-hidden rounded-xl shadow-md bg-white">
+            <Image
               src={mainImage}
               alt="Elegant Wooden Dressing Table"
-              className="max-w-full h-auto object-contain"
+              fill
+              className="object-contain"
             />
           </div>
 
-          <div className="flex gap-4 overflow-x-auto hide-scrollbar">
+          <div className="flex flex-wrap gap-4">
             {images.map((img, idx) => (
-              <div
+              <button
                 key={idx}
-                className={`w-24 h-24 flex-shrink-0 rounded-md overflow-hidden border-2 cursor-pointer transition-all duration-200 ${
-                  mainImage === img ? "border-green-600" : "border-transparent"
-                } hover:border-gray-400`}
                 onClick={() => setMainImage(img)}
+                className={`w-20 h-20 rounded-md overflow-hidden border-2 transition-all ${
+                  mainImage === img ? "border-green-600" : "border-gray-200"
+                } hover:border-gray-400`}
               >
-                <img
+                <Image
                   src={img}
                   alt={`Thumbnail ${idx + 1}`}
+                  width={80}
+                  height={80}
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </button>
             ))}
           </div>
         </div>
@@ -89,21 +93,27 @@ export default function DressingTablePage() {
           <div>
             <h3 className="text-lg font-semibold mb-1">Product Description</h3>
             <p className="text-gray-700 mb-2 text-sm leading-tight">
-              Upgrade your bedroom with our beautifully crafted wooden dressing table that blends functionality
-              with timeless elegance. Designed to meet modern lifestyle needs, this dressing table features
-              a large mirror, spacious drawers, and an open shelf for easy access to your everyday essentials.
-              Whether you're getting ready for work or a special occasion, this unit helps you stay organized in style.
+              Upgrade your bedroom with our beautifully crafted wooden dressing
+              table that blends functionality with timeless elegance. Designed
+              to meet modern lifestyle needs, this dressing table features a
+              large mirror, spacious drawers, and an open shelf for easy access
+              to your everyday essentials. Whether you're getting ready for work
+              or a special occasion, this unit helps you stay organized in
+              style.
             </p>
             <p className="text-gray-700 mb-2 text-sm leading-tight">
-              Constructed from high-quality engineered wood with a premium finish, the dressing table is both
-              durable and visually appealing. Its smooth surface is easy to clean, while the ample storage allows
-              you to neatly arrange cosmetics, jewelry, and grooming items. The sturdy stool and compact design
-              make it perfect for both large and small bedrooms.
+              Constructed from high-quality engineered wood with a premium
+              finish, the dressing table is both durable and visually appealing.
+              Its smooth surface is easy to clean, while the ample storage
+              allows you to neatly arrange cosmetics, jewelry, and grooming
+              items. The sturdy stool and compact design make it perfect for
+              both large and small bedrooms.
             </p>
             <p className="text-gray-700 text-sm leading-tight">
-              Its minimalist design and neutral color tone complement any interior décor, adding charm and utility
-              to your space. Whether you are redecorating or setting up a new home, this dressing table is a
-              practical and stylish choice.
+              Its minimalist design and neutral color tone complement any
+              interior décor, adding charm and utility to your space. Whether
+              you are redecorating or setting up a new home, this dressing table
+              is a practical and stylish choice.
             </p>
           </div>
         </div>

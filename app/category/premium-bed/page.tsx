@@ -18,22 +18,23 @@ export default function PremiumBedPage() {
         Premium Bed with Shaku Wood
       </h1>
 
-      <div className="grid md:grid-cols-2 gap-8 items-start">
+      {/* ✅ Make grid stack on mobile, side-by-side on md+ */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
         {/* ✅ Left: Main Image + Thumbnails */}
         <div className="flex flex-col">
           <div className="w-full flex justify-center items-center mb-4 overflow-hidden rounded-xl shadow-md bg-white">
             <img
               src={mainImage}
               alt="Premium Bed with Shaku Wood"
-              className="max-w-full h-auto object-contain"
+              className="w-full h-auto max-h-[500px] object-contain"
             />
           </div>
 
-          <div className="flex gap-4 overflow-x-auto hide-scrollbar">
+          <div className="flex flex-wrap gap-3 justify-center sm:justify-start">
             {images.map((img, idx) => (
               <div
                 key={idx}
-                className={`w-24 h-24 flex-shrink-0 rounded-md overflow-hidden border-2 cursor-pointer transition-all duration-200 ${
+                className={`w-20 h-20 sm:w-24 sm:h-24 rounded-md overflow-hidden border-2 cursor-pointer transition-all duration-200 ${
                   mainImage === img ? "border-green-600" : "border-transparent"
                 } hover:border-gray-400`}
                 onClick={() => setMainImage(img)}
@@ -53,27 +54,17 @@ export default function PremiumBedPage() {
           <h2 className="text-xl font-semibold mb-3">Product Details</h2>
 
           <ul className="mb-4 space-y-1 text-gray-700 text-sm leading-tight">
-            <li>
-              ✅ <strong>Type:</strong> Bed with Storage
-            </li>
-            <li>
-              ✅ <strong>Material:</strong> Sakhu Wood & Premium Fabric
-            </li>
-            <li>
-              ✅ <strong>Size:</strong> King Size (6×6 feet)
-            </li>
-            <li>
-              ✅ <strong>Mattress:</strong> Not included — Recommended Size: 72×70 inches
-            </li>
-            <li>
-              ✅ <strong>Headboard:</strong> Upholstered, Soft & Stylish
-            </li>
-            <li>
-              ✅ <strong>Finish Color:</strong> White Cassius
-            </li>
+            <li>✅ <strong>Type:</strong> Bed with Storage</li>
+            <li>✅ <strong>Material:</strong> Sakhu Wood & Premium Fabric</li>
+            <li>✅ <strong>Size:</strong> King Size (6×6 feet)</li>
+            <li>✅ <strong>Mattress:</strong> Not included — Recommended Size: 72×70 inches</li>
+            <li>✅ <strong>Headboard:</strong> Upholstered, Soft & Stylish</li>
+            <li>✅ <strong>Finish Color:</strong> White Cassius</li>
           </ul>
 
-          <p className="text-base font-bold mb-3">Price: ₹28,000 & with Dressing Table ₹38000</p>
+          <p className="text-base font-bold mb-3">
+            Price: ₹28,000 & with Dressing Table ₹38,000
+          </p>
 
           <a
             href="https://wa.me/917651847029?text=I%20am%20interested%20in%20ordering%20the%20Premium%20Bed%20with%20Shaku%20Wood"
@@ -103,7 +94,7 @@ export default function PremiumBedPage() {
             <p className="text-gray-700 mb-2 text-sm leading-tight">
               The Saku Premium Bed not only enhances your interior but also promises
               exceptional comfort and functionality. Its spacious design offers ample room
-              for restful sleep, and it complements a wide range of bedroom styles –
+              for restful sleep, and it complements a wide range of bedroom styles – 
               from minimalist to modern luxury.
             </p>
             <p className="text-gray-700 mb-2 text-sm leading-tight">

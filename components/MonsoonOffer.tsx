@@ -92,7 +92,7 @@ export default function MonsoonOffer() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
             {[
               "Free Delivery & Installation",
-              "5-Year Warranty",
+              "1-Year Warranty",
               "EMI With Bajaj",
               "Premium Quality Products",
             ].map((feature, index) => (
