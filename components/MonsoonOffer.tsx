@@ -74,10 +74,10 @@ export default function MonsoonOffer() {
             <Sparkles className="w-4 h-4 mr-1 inline-block" /> LIMITED TIME OFFER
           </Badge>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-3 drop-shadow-lg">
-            Premium Monsoon Package Sale
+            Monsoon Package Sale
           </h2>
           <p className="text-blue-100 text-sm sm:text-base md:text-lg max-w-xl">
-            Upgrade your entire home — 9 premium items, one unbeatable price.
+            Upgrade your entire home — 9 items, one unbeatable price.
           </p>
         </div>
 

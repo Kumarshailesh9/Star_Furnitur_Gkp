@@ -48,7 +48,7 @@ export default function AboutPage() {
                 The Star Furniture Journey
               </h2>
               <p className="text-muted-foreground mb-4">
-                Founded in 1998 by <strong>Mohd. Washad</strong> in Gorakhpur,
+                Founded in 1998 by <strong>Mr. Wasiullah</strong> in Gorakhpur,
                 Uttar Pradesh, Star Furniture began as a modest workshop with a
                 simple mission: to create beautiful, durable furniture that
                 brings comfort and joy to Indian homes.

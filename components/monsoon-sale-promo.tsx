@@ -46,7 +46,7 @@ export function MonsoonSalePromo() {
           </Badge>
 
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
-            Premium Monsoon Package Sale
+            Monsoon Package Sale
           </h2>
 
           <p className="text-blue-100 text-sm sm:text-base md:text-lg max-w-2xl">

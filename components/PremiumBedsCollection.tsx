@@ -8,7 +8,7 @@ export default function PremiumBedsCollection() {
   const categories = [
     {
       id: 1,
-      name: "Premium Bed with Shaku Wood",
+      name: "Beds",
       description:
         "Elegant beds with plush, upholstered headboards for luxurious comfort.",
       image: "/luxurious-bedroom-retreat.png",
@@ -16,7 +16,7 @@ export default function PremiumBedsCollection() {
     },
     {
       id: 2,
-      name: "Premium Mattress",
+      name: "Mattress",
       description:
         "High-quality orthopedic mattress for superior spine support and restful sleep.",
       image: "/comfortable-mattress.png",
@@ -24,7 +24,7 @@ export default function PremiumBedsCollection() {
     },
     {
       id: 3,
-      name: "Premium 5-Seater Corner Sofa",
+      name: "5-Seater Corner Sofa",
       description:
         "Spacious and stylish corner sofa designed for modern living rooms with maximum comfort.",
       image: "/luxurious-living-room-sofa.png", // ✅ Use your local image or update path
@@ -35,7 +35,7 @@ export default function PremiumBedsCollection() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-12">
       <h2 className="text-3xl font-bold mb-8 text-center">
-        Premium Beds Collection
+        Beds Collection
       </h2>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {categories.map((category) => (
