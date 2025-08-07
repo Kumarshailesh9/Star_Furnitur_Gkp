@@ -91,13 +91,46 @@ export default function Header() {
                     </div>
                   </Link>
                 </div>
-                <nav className="flex-1 overflow-auto p-4 space-y-6 text-white">
+                <nav className="flex-1 overflow-auto p-4 space-y-4 text-white">
                   <SheetClose asChild>
                     <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
                       <Home className="h-5 w-5" /> Home
                     </Link>
                   </SheetClose>
+
+                  <div className="space-y-2">
+                    <div className="text-base font-semibold flex items-center gap-2">
+                      <ChevronDown className="h-4 w-4" />
+                      Products
+                    </div>
+                    <div className="pl-4 space-y-2">
+                      {productItems.map(({ label, icon, href }) => (
+                        <SheetClose asChild key={label}>
+                          <Link
+                            href={'/not-found'} // Change to `href` to use actual route
+                            className="flex items-center gap-2 py-1 text-sm hover:text-emerald-400 transition"
+                          >
+                            {icon}
+                            {label}
+                          </Link>
+                        </SheetClose>
+                      ))}
+                    </div>
+                  </div>
+
+                  <SheetClose asChild>
+                    <Link href="/about" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                      <Settings className="h-5 w-5" /> About Us
+                    </Link>
+                  </SheetClose>
+
+                  <SheetClose asChild>
+                    <Link href="/contact" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                      <CalendarClock className="h-5 w-5" /> Contact Us
+                    </Link>
+                  </SheetClose>
                 </nav>
+
               </div>
             </SheetContent>
           </Sheet>
