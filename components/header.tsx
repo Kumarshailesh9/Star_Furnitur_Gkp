@@ -26,7 +26,7 @@ import { ScrollingMarquee } from "@/components/scrolling-marquee";
 
 const productItems = [
   { label: "Double Bed", icon: <Bed className="w-8 h-8" />, href: "/all-product/db" },
-  { label: "Wardrobe", icon: <Store className="w-8 h-8" />, href: "/products/wardrobe" },
+  { label: "Wardrobe", icon: <Store className="w-8 h-8" />, href: "/all-product/wb" },
   { label: "Dressing", icon: <Paintbrush className="w-8 h-8" />, href: "/products/dressing" },
   { label: "Center Table", icon: <Coffee className="w-8 h-8" />, href: "/products/center-table" },
   { label: "Sofa", icon: <Sofa className="w-8 h-8" />, href: "/products/sofa" },
