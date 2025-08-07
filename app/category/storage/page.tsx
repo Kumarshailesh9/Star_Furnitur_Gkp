@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function StoragePage() {
   const product = {
-    name: "Spacious Almirah",
+    name: "Wardrobe",
     desc:
-      "Spacious and elegant almirah with sturdy shelves and secure lock — keeps your clothes and essentials organized beautifully. Crafted with high-quality engineered wood, this almirah combines durability with timeless style.",
+      "Spacious and elegant wardrobe with sturdy shelves and secure lock — keeps your clothes and essentials organized beautifully. Crafted with high-quality engineered wood, this almirah combines durability with timeless style.",
     price: 1350,
     unit: "sqft",
     images: [

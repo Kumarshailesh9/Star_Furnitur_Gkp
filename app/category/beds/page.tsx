@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function BedsPage() {
   const product = {
-    name: "Double Particle Bed",
+    name: "Engineered Wood Bed",
     desc: "Modern double bed made with durable particle board, 6×6 size.",
     price: 56000,
     images: [
