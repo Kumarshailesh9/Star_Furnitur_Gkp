@@ -25,7 +25,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/s
 import { ScrollingMarquee } from "@/components/scrolling-marquee";
 
 const productItems = [
-  { label: "Double Bed", icon: <Bed className="w-8 h-8" />, href: "/products/double-bed" },
+  { label: "Double Bed", icon: <Bed className="w-8 h-8" />, href: "/all-product/db" },
   { label: "Wardrobe", icon: <Store className="w-8 h-8" />, href: "/products/wardrobe" },
   { label: "Dressing", icon: <Paintbrush className="w-8 h-8" />, href: "/products/dressing" },
   { label: "Center Table", icon: <Coffee className="w-8 h-8" />, href: "/products/center-table" },
@@ -107,7 +107,7 @@ export default function Header() {
                       {productItems.map(({ label, icon, href }) => (
                         <SheetClose asChild key={label}>
                           <Link
-                            href={'/not-found'} // Change to `href` to use actual route
+                            href={href} // Change to `href` to use actual route
                             className="flex items-center gap-2 py-1 text-sm hover:text-emerald-400 transition"
                           >
                             {icon}
@@ -151,8 +151,8 @@ export default function Header() {
                   {productItems.map(({ label, icon, href }) => (
                     <Link
                       key={label}
-                      // href={href}
-                      href={'/not-found'}
+                      href={href}
+                     
                       className="flex items-center gap-2 hover:bg-yellow-600 hover:text-white px-2 py-1 rounded transition"
                     >
                       {icon}
