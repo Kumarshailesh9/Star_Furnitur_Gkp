@@ -27,13 +27,13 @@ import { ScrollingMarquee } from "@/components/scrolling-marquee";
 const productItems = [
   { label: "Double Bed", icon: <Bed className="w-8 h-8" />, href: "/all-product/db" },
   { label: "Wardrobe", icon: <Store className="w-8 h-8" />, href: "/all-product/wb" },
-  { label: "Dressing", icon: <Paintbrush className="w-8 h-8" />, href: "/products/dressing" },
-  { label: "Center Table", icon: <Coffee className="w-8 h-8" />, href: "/products/center-table" },
-  { label: "Sofa", icon: <Sofa className="w-8 h-8" />, href: "/products/sofa" },
-  { label: "Dining Table", icon: <TableProperties className="w-8 h-8" />, href: "/products/dining-table" },
-  { label: "Office Table", icon: <Package className="w-8 h-8" />, href: "/products/office-table" },
-  { label: "Office Chair", icon: <Armchair className="w-8 h-8" />, href: "/products/office-chair" },
-  { label: "Office Cabinets", icon: <LayoutGrid className="w-8 h-8" />, href: "/products/office-cabinets" },
+  { label: "Dressing", icon: <Paintbrush className="w-8 h-8" />, href: "/all-product/dr" },
+  { label: "Center Table", icon: <Coffee className="w-8 h-8" />, href: "/all-product/ct" },
+  { label: "Sofa", icon: <Sofa className="w-8 h-8" />, href: "/all-product/sofa" },
+  { label: "Dining Table", icon: <TableProperties className="w-8 h-8" />, href: "/all-product/dt" },
+  { label: "Office Table", icon: <Package className="w-8 h-8" />, href: "/all-product/ot" },
+  { label: "Office Chair", icon: <Armchair className="w-8 h-8" />, href: "/all-product/ochair" },
+  { label: "Office Cabinets", icon: <LayoutGrid className="w-8 h-8" />, href: "/all-product/oc" },
 ];
 
 export default function Header() {
