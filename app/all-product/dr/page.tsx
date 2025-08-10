@@ -7,21 +7,21 @@ const DoubleBeds = () => {
 
     return (
         <>
-           <div className='flex justify-center items-center p-6'>
-   <p className='font-bold text-2xl'>Dressing Tables</p>
-   </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-gray-100">
-            {productImages.map((img, index) => (
-                <Link href={`/details/${img}`} key={index}>
-                    <ProductCard
-                        title={'Double Beds'}
-                        badgeText={badgeText}
-                        image={`/category/dr/${img}.jpg`}
-                        alt={`${badgeText} ${index + 1}`}
-                    />
-                </Link>
-            ))}
-        </div>
+            <div className='flex justify-center items-center p-6'>
+                <p className='font-bold text-2xl'>Dressing Tables</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 bg-gray-100">
+                {productImages.map((img, index) => (
+                    <Link href={`/details/${img}`} key={index}>
+                        <ProductCard
+                            title={'Double Beds'}
+                            badgeText={badgeText}
+                            image={`/category/all/${img}.jpg`}
+                            alt={`${badgeText} ${index + 1}`}
+                        />
+                    </Link>
+                ))}
+            </div>
         </>
     );
 };

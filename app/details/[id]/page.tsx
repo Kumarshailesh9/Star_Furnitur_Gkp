@@ -7,7 +7,7 @@ import products from "@/data/productData";
 
 export default function ProductDetails() {
   const params = useParams<{ id: string }>()!;
-  const id = params.id; // now id is string
+  const id = params.id;
 
   const [product, setProduct] = useState<null | (typeof products)[0]>(null);
   const [mainImage, setMainImage] = useState<string | null>(null);
@@ -87,7 +87,7 @@ export default function ProductDetails() {
 
           <h2 className="text-lg font-semibold mb-2">Description</h2>
           <ul className="list-disc pl-5 space-y-1 text-gray-700 mb-2">
-            {product.description.map((desc, idx) => (
+            {product.description?.map((desc, idx) => (
               <li key={idx}>{desc}</li>
             ))}
           </ul>
@@ -95,25 +95,29 @@ export default function ProductDetails() {
             <p className="italic text-sm mb-4">{product.note}</p>
           )}
 
-          <h2 className="text-xl font-bold mb-2">
-            WARRANTY :- {product.warranty.years}*
-          </h2>
+          {product.warranty && (
+            <>
+              <h2 className="text-xl font-bold mb-2">
+                WARRANTY :- {product.warranty.years}*
+              </h2>
 
-          <h3 className="font-semibold mt-2">Covered:</h3>
-          <ul className="list-disc pl-5 text-gray-700 mb-2">
-            {product.warranty.covered.map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
+              <h3 className="font-semibold mt-2">Covered:</h3>
+              <ul className="list-disc pl-5 text-gray-700 mb-2">
+                {(product.warranty.covered ?? []).map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
 
-          <h3 className="font-semibold mt-2">Not Covered:</h3>
-          <ul className="list-disc pl-5 text-gray-700 mb-4">
-            {product.warranty.notCovered.map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
+              <h3 className="font-semibold mt-2">Not Covered:</h3>
+              <ul className="list-disc pl-5 text-gray-700 mb-4">
+                {(product.warranty.notCovered ?? []).map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
 
-          <p className="text-sm italic mb-6">*T&C Apply</p>
+              <p className="text-sm italic mb-6">*T&C Apply</p>
+            </>
+          )}
 
           {/* WhatsApp Button */}
           <a

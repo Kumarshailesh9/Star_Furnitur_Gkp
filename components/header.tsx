@@ -1,3 +1,5 @@
+
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -68,21 +70,23 @@ export default function Header() {
 
       <div className="bg-gray-900 border-b-2 border-emerald-950">
         <div className="container mx-auto px-4 py-3 md:px-8 flex justify-between items-center">
+          {/* Logo */}
           <Link href="/" className="flex items-center gap-1">
             <Image src="/logo.png" alt="Logo" width={50} height={50} className="object-contain" priority />
-            <span className="flex flex-col text-white leading-none ">
+            <span className="flex flex-col text-white leading-none">
               <span className="text-lg font-bold">Star Furniture</span>
               <span className="text-sm">And Electronics</span>
             </span>
           </Link>
 
+          {/* Mobile Menu */}
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-6 w-6 text-white" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[80vw] max-w-[300px] p-0 bg-blue-950">
+            <SheetContent side="left" className="w-[80vw] max-w-[300px] p-0 bg-gray-900 text-white">
               <div className="flex flex-col h-full">
                 <div className="p-4 border-b border-gray-200">
                   <Link href="/" className="flex items-center">
@@ -91,68 +95,73 @@ export default function Header() {
                     </div>
                   </Link>
                 </div>
-                <nav className="flex-1 overflow-auto p-4 space-y-4 text-white">
-                  <SheetClose asChild>
-                    <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
-                      <Home className="h-5 w-5" /> Home
-                    </Link>
-                  </SheetClose>
 
-                  <div className="space-y-2">
-                    <div className="text-base font-semibold flex items-center gap-2">
-                      <ChevronDown className="h-4 w-4" />
-                      Products
+                <nav className="flex-1 overflow-auto">
+                  <div className="p-4 space-y-4">
+                    {/* Home */}
+                    <SheetClose asChild>
+                      <Link href="/" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                        <Home className="h-5 w-5" /> Home
+                      </Link>
+                    </SheetClose>
+
+                    {/* Products - Yellow Grid */}
+                    <div className="space-y-2">
+                      <div className="text-base font-semibold flex items-center gap-2">
+                        <ChevronDown className="h-4 w-4" />
+                        Products
+                      </div>
+                      <div className="grid grid-cols-3 gap-3 bg-yellow-500 p-3 rounded-md">
+                        {productItems.map(({ label, icon, href }) => (
+                          <SheetClose asChild key={label}>
+                            <Link
+                              href={href}
+                              className="flex flex-col items-center justify-center gap-1 text-center text-sm font-medium text-black hover:text-white hover:bg-yellow-600 p-2 rounded"
+                            >
+                              {icon}
+                              <span>{label}</span>
+                            </Link>
+                          </SheetClose>
+                        ))}
+                      </div>
                     </div>
-                    <div className="pl-4 space-y-2">
-                      {productItems.map(({ label, icon, href }) => (
-                        <SheetClose asChild key={label}>
-                          <Link
-                            href={href} // Change to `href` to use actual route
-                            className="flex items-center gap-2 py-1 text-sm hover:text-emerald-400 transition"
-                          >
-                            {icon}
-                            {label}
-                          </Link>
-                        </SheetClose>
-                      ))}
-                    </div>
+
+                    {/* About Us */}
+                    <SheetClose asChild>
+                      <Link href="/about" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                        <Settings className="h-5 w-5" /> About Us
+                      </Link>
+                    </SheetClose>
+
+                    {/* Contact Us */}
+                    <SheetClose asChild>
+                      <Link href="/contact" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
+                        <CalendarClock className="h-5 w-5" /> Contact Us
+                      </Link>
+                    </SheetClose>
                   </div>
-
-                  <SheetClose asChild>
-                    <Link href="/about" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
-                      <Settings className="h-5 w-5" /> About Us
-                    </Link>
-                  </SheetClose>
-
-                  <SheetClose asChild>
-                    <Link href="/contact" className="flex items-center gap-2 py-2 text-base font-medium hover:text-emerald-600 transition">
-                      <CalendarClock className="h-5 w-5" /> Contact Us
-                    </Link>
-                  </SheetClose>
                 </nav>
-
               </div>
             </SheetContent>
           </Sheet>
 
+          {/* Desktop Menu */}
           <nav className="hidden md:flex items-center gap-8 text-white">
             <Link href="/" className="text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition">
               Home
             </Link>
 
+            {/* Products Dropdown */}
             <div className="relative group">
               <button className="text-sm font-medium flex items-center hover:text-emerald-600 hover:underline underline-offset-4 transition">
                 Products <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-
-              {/* Dropdown */}
               <div className="absolute left-0 top-full bg-yellow-500 rounded-md shadow-xl z-50 w-64 max-w-[90vw] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="flex flex-col gap-y-3 p-4">
                   {productItems.map(({ label, icon, href }) => (
                     <Link
                       key={label}
                       href={href}
-                     
                       className="flex items-center gap-2 hover:bg-yellow-600 hover:text-white px-2 py-1 rounded transition"
                     >
                       {icon}
@@ -162,9 +171,6 @@ export default function Header() {
                 </div>
               </div>
             </div>
-
-
-
 
             <Link href="/about" className="text-sm font-medium hover:text-emerald-600 hover:underline underline-offset-4 transition">
               About Us

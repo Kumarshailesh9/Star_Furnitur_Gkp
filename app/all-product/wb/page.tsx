@@ -16,7 +16,7 @@ const DoubleBeds = () => {
                     <ProductCard
                         title={'Double Beds'}
                         badgeText={badgeText}
-                        image={`/category/wb/${img}.jpg`}
+                        image={`/category/all/${img}.jpg`}
                         alt={`${badgeText} ${index + 1}`}
                     />
                 </Link>

@@ -88,7 +88,7 @@ const products = [
         'Continuous contact of water',
         'Shifting of furniture without dismantling it',
         'Furniture directly exposed to sunlight',
-        'Furniture bought from unauthorized dealer Star',
+        'Furniture bought from unauthorized dealer Star Furniture',
       ],
     },
   },
@@ -134,7 +134,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -180,7 +180,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -226,7 +226,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -272,7 +272,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -318,7 +318,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -364,7 +364,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -411,7 +411,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -457,7 +457,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -503,7 +503,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -550,7 +550,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -596,7 +596,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -642,7 +642,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -688,7 +688,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -734,7 +734,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -780,7 +780,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -826,7 +826,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -872,7 +872,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -918,7 +918,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -965,7 +965,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1011,7 +1011,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1057,7 +1057,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1104,7 +1104,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1150,7 +1150,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1197,7 +1197,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1244,7 +1244,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1290,7 +1290,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1336,7 +1336,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1382,7 +1382,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1428,7 +1428,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1474,7 +1474,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1520,7 +1520,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1575,7 +1575,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1630,7 +1630,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 }
@@ -1686,7 +1686,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1741,7 +1741,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1796,7 +1796,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1850,7 +1850,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1905,7 +1905,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -1960,7 +1960,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2015,7 +2015,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2070,7 +2070,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2125,7 +2125,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2180,7 +2180,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2235,7 +2235,7 @@ const products = [
       'Continuous contact of water',
       'Shifting of furniture without dismantling it',
       'Furniture directly exposed to sunlight',
-      'Furniture bought from unauthorized dealer Star',
+      'Furniture bought from unauthorized dealer Star Furniture',
     ],
   },
 },
@@ -2289,7 +2289,7 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 },
@@ -2344,7 +2344,7 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 },
@@ -2399,7 +2399,7 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 },
@@ -2454,7 +2454,7 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 },
@@ -2509,7 +2509,7 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 },
@@ -2564,11 +2564,1324 @@ const products = [
       "Continuous contact of water",
       "Shifting of furniture without dismantling it",
       "Furniture directly exposed to sunlight",
-      "Furniture bought from unauthorized dealer Star"
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+///// End WR/////
+///////Dressing/////////////////
+{
+  "id": "3.1",
+  "title": "Premium Wooden Dressing Table with Mirror – Elegant Bedroom Furniture",
+  "code": "DR 407",
+  "material": "Ply & Laminate",
+  "availability": "✔ In stock",
+  "size": "Custom",
+  "image": "/category/all/3.1.jpg",
+  "gallery": [
+    "/category/all/3.1.jpg",
+    "/category/all/3.2.jpg",
+    "/category/all/3.3.jpg"
+  ],
+  "description": [
+    "Large Mirror full view.",
+    "Cushioned puffy for comfortable makeup session.",
+    "Soft closing hinges to keep it noise free.",
+    "Smooth drawer channels for effortless use."
+  ]
+},
+{
+  "id": "45.1",
+  "title": "Engineered Wood Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 407",
+  "material": "Ply & Laminatee",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/45.1.jpg",
+  "gallery": [
+    "/category/all/45.1.jpg",
+    "/category/all/45.2.jpg",
+    "/category/all/45.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "20 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "46.1",
+  "title": "Ply Laminate Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 401",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/46.1.jpg",
+  "gallery": [
+    "/category/all/46.1.jpg",
+    "/category/all/46.2.jpg",
+    "/category/all/46.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "47.1",
+  "title": "Ply Laminate Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 402",
+  "material": "Ply & Laminatee",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/47.1.jpg",
+  "gallery": [
+    "/category/all/47.1.jpg",
+    "/category/all/47.2.jpg",
+    "/category/all/47.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "20 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "48.1",
+  "title": "Engineered Wood Dressing Table with Mirror",
+  "code": "DR 401",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/48.1.jpg",
+  "gallery": [
+    "/category/all/48.1.jpg",
+    "/category/all/48.2.jpg",
+    "/category/all/48.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "49.1",
+  "title": "Ply Laminate Dressing Table with Mirror and Lighting",
+  "code": "DR 403",
+  "material": "Ply & Laminatee",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/49.1.jpg",
+  "gallery": [
+    "/category/all/49.1.jpg",
+    "/category/all/49.2.jpg",
+    "/category/all/49.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "20 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "51.1",
+  "title": "MDF Polish Hydraulic Bed with Storage and Side Table",
+  "code": "DR 404",
+  "material": "Ply & Laminatee",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/51.1.jpg",
+  "gallery": [
+    "/category/all/51.1.jpg",
+    "/category/all/51.2.jpg",
+    "/category/all/51.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "52.1",
+  "title": "MDF Polish Hydraulic Bed with Storage and Side Table",
+  "code": "DR 405",
+  "material": "MDF Polish",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 3'4\"",
+  "image": "/category/all/52.1.jpg",
+  "gallery": [
+    "/category/all/52.1.jpg",
+    "/category/all/52.2.jpg",
+    "/category/all/52.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "53.1",
+  "title": "MDF Polish Dressing Table with Mirror and Lighting",
+  "code": "DR 407",
+  "material": "MDF Polish",
+  "availability": "✔ In stock",
+  "size": "6'4\" x 2'10\"",
+  "image": "/category/all/53.1.jpg",
+  "gallery": [
+    "/category/all/53.1.jpg",
+    "/category/all/53.2.jpg",
+    "/category/all/53.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "54.1",
+  "title": "Ply Laminate Dressing Table with Mirror and Lighting",
+  "code": "DR 409",
+  "material": "Ply & Laminate",
+  "availability": "✔ In stock",
+  "size": "6'4\" x 2'8\"",
+  "image": "/category/all/54.1.jpg",
+  "gallery": [
+    "/category/all/54.1.jpg",
+    "/category/all/54.2.jpg",
+    "/category/all/54.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+  {
+  "id": "55.1",
+  "title": "Prelam MDF Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 410",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 2'8\"",
+  "image": "/category/all/55.1.jpg",
+  "gallery": [
+    "/category/all/55.1.jpg",
+    "/category/all/55.2.jpg",
+    "/category/all/55.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
     ]
   }
 }
-///// End WR/////
+,
+{
+  "id": "56.1",
+  "title": "Engineered Wood Dressing Table",
+  "code": "DR 412",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "6'4\" x 2'8\"",
+  "image": "/category/all/56.1.jpg",
+  "gallery": [
+    "/category/all/56.1.jpg",
+    "/category/all/56.2.jpg",
+    "/category/all/56.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "57.1",
+  "title": "Prelam MDF Dressing Table",
+  "code": "DR 413",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 2'4\"",
+  "image": "/category/all/57.1.jpg",
+  "gallery": [
+    "/category/all/57.1.jpg",
+    "/category/all/57.2.jpg",
+    "/category/all/57.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "58.1",
+  "title": "Prelam MDF Dressing Table Lighting Gorakhpur",
+  "code": "DR 415",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 2'4\"",
+  "image": "/category/all/58.1.jpg",
+  "gallery": [
+    "/category/all/58.1.jpg",
+    "/category/all/58.2.jpg",
+    "/category/all/58.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "59.1",
+  "title": "Prelam MDF Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 414",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/59.1.jpg",
+  "gallery": [
+    "/category/all/59.1.jpg",
+    "/category/all/59.2.jpg",
+    "/category/all/59.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "60.1",
+  "title": "Engineered Wood Dressing Table with Mirror and Lighting Gorakhpur",
+  "code": "DR 416",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 1'9\"",
+  "image": "/category/all/60.1.jpg",
+  "gallery": [
+    "/category/all/60.1.jpg",
+    "/category/all/60.2.jpg",
+    "/category/all/60.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "61.1",
+  "title": "Dressing Table with Lighting",
+  "code": "DR 418",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "6'2\" x 1'9\"",
+  "image": "/category/all/61.1.jpg",
+  "gallery": [
+    "/category/all/61.1.jpg",
+    "/category/all/61.2.jpg",
+    "/category/all/61.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "62.1",
+  "title": "Dressing Table with Mirror & Lighting in Gorakhpur, Deoria, Basti – Star Furniture Furniture",
+  "code": "DR 419",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "6'3\" x 2'6\"",
+  "image": "/category/all/62.1.jpg",
+  "gallery": [
+    "/category/all/62.1.jpg",
+    "/category/all/62.2.jpg",
+    "/category/all/62.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "63.1",
+  "title": "Dressing Table with Mirror & Lighting in Gorakhpur",
+  "code": "DR 420",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "Standard",
+  "image": "/category/all/63.1.jpg",
+  "gallery": [
+    "/category/all/63.1.jpg",
+    "/category/all/63.2.jpg",
+    "/category/all/63.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "64.1",
+  "title": "Dressing Table with Mirror & Lighting in Gorakhpur",
+  "code": "DR 422",
+  "material": "Prelam MDF",
+  "availability": "✔ In stock",
+  "size": "6'3\" x 3'6\"",
+  "image": "/category/all/64.1.jpg",
+  "gallery": [
+    "/category/all/64.1.jpg",
+    "/category/all/64.2.jpg",
+    "/category/all/64.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "A well-organized dressing table saves time in the morning rush.",
+    "Made from strong, durable materials.",
+    "Treated surfaces for moisture and termite resistance.",
+    "Smooth, chip-free edges and corners.",
+    "Mirror Quality :-",
+    "Clear, distortion-free mirror with strong backing.",
+    "Properly mounted or framed for stability.",
+    "Anti-rust coating on the mirror’s backside (for long-term use)",
+    "Storage & Functionality :-",
+    "Adequate drawer space for cosmetics, accessories, and tools.",
+    "Thoughtfully arranged compartments for organization.",
+    "May include hidden or lockable storage for valuables.",
+    "Design & Finish :-",
+    "Elegant, consistent finish.",
+    "Style matches your room’s aesthetics.",
+    "Ergonomic height for sitting comfortably while using the mirror.",
+    "Built-in lighting on the mirror.",
+    "Easy to clean surfaces."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+///////////////////Centeral table /////////////////////
+{
+  "id": "4.1",
+  "title": "Center Table",
+  "code": "CT 922",
+  "material": "MDF Polish",
+  "availability": "✔ In stock",
+  "size": "7 3' x 3'",
+  "image": "/category/all/4.1.jpg",
+  "gallery": [
+    "/category/all/4.1.jpg",
+    "/category/all/4.2.jpg",
+    "/category/all/4.3.jpg"
+  ],
+  "description": [
+    "Free standing.",
+    "Easy to move.",
+    "Premium material and polish."
+  ]
+},
+///////////////////////
+{
+  "id": "5.1",
+  "title": "6-Seater Italian Top Dining Table in Gorakhpur",
+  "code": "DT 309",
+  "material": "Solid Surface",
+  "availability": "✔ In stock",
+  "size": "6 Seater",
+  "image": "/category/all/5.1.jpg",
+  "gallery": [
+    "/category/all/5.1.jpg",
+    "/category/all/5.2.jpg",
+    "/category/all/5.3.jpg"
+  ],
+  "description": [
+    "Solid Wood 6 Seater.",
+    "Italian Top Dining Table.",
+    "Sturdy and solid. Polished seasoned wood."
+  ]
+},
+{
+  "id": "6.1",
+  "title": "L-Shaped Office Desk with Storage in Gorakhpur",
+  "code": "OT 616",
+  "material": "Ply & Laminate",
+  "availability": "✔ In stock",
+  "size": "Custom",
+  "image": "/category/all/6.1.jpg",
+  "gallery": [
+    "/category/all/6.1.jpg",
+    "/category/all/6.2.jpg",
+    "/category/all/6.3.jpg"
+  ],
+  "description": [
+    "Perfect replacement for your current office desk.",
+    "L Shaped with multiple storage drawers."
+  ]
+},
+{
+  "id": "83.1",
+  "title": "Office Table with Storage",
+  "code": "OT 601",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "4' x 2'6\"",
+  "image": "/category/all/83.1.jpg",
+  "gallery": [
+    "/category/all/83.1.jpg",
+    "/category/all/83.2.jpg",
+    "/category/all/83.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "Made from strong, durable materials.",
+    "Uniform grain pattern and consistent color.",
+    "High-quality hardware (drawer sliders, handles, hinges)",
+    "Design & Ergonomics :-",
+    "Comfortable height.",
+    "Spacious tabletop for computer, documents, and accessories.",
+    "This office table is crafted from high-quality engineered wood, offering a stylish and durable design.",
+    "Finish & Aesthetics :-",
+    "Even, well-applied finish.",
+    "No rough spots, bubbles, or discoloration.",
+    "Rounded or smooth edges for safety and comfort.",
+    "Functionality & Features :-",
+    "Built-in drawers, shelves, or cable management holes.",
+    "Lockable storage (for documents or personal items).",
+    "Adequate legroom and knee clearance.",
+    "Durability & Maintenance :-",
+    "Easy-to-clean surface with minimal upkeep.",
+    "Resistant to warping, chipping, or peeling over time.",
+    "Long lifespan under daily use."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "84.1",
+  "title": "Office Table with Storage in Gorakhpur",
+  "code": "OT 602",
+  "material": "Ply & Laminate",
+  "availability": "✔ In stock",
+  "size": "5' x 2'6\"",
+  "image": "/category/all/84.1.jpg",
+  "gallery": [
+    "/category/all/84.1.jpg",
+    "/category/all/84.2.jpg",
+    "/category/all/84.3.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "Made from strong, durable materials.",
+    "Uniform grain pattern and consistent color.",
+    "High-quality hardware (drawer sliders, handles, hinges)",
+    "Design & Ergonomics :-",
+    "Comfortable height.",
+    "Spacious tabletop for computer, documents, and accessories.",
+    "This office table is crafted from high-quality engineered wood, offering a stylish and durable design.",
+    "Finish & Aesthetics :-",
+    "Even, well-applied finish.",
+    "No rough spots, bubbles, or discoloration.",
+    "Rounded or smooth edges for safety and comfort.",
+    "Functionality & Features :-",
+    "Built-in drawers, shelves, or cable management holes.",
+    "Lockable storage (for documents or personal items).",
+    "Adequate legroom and knee clearance.",
+    "Durability & Maintenance :-",
+    "Easy-to-clean surface with minimal upkeep.",
+    "Resistant to warping, chipping, or peeling over time.",
+    "Long lifespan under daily use."
+  ],
+  "warranty": {
+    "years": "20 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+{
+  "id": "85.1",
+  "title": "Office Table with Storage in Gorakhpur",
+  "code": "OT 604",
+  "material": "Engineered Wood",
+  "availability": "✔ In stock",
+  "size": "Custom",
+  "image": "/category/all/85.1.jpg",
+  "gallery": [
+    "/category/all/85.1.jpg",
+    "/category/all/85.2.jpg"
+  ],
+  "description": [
+    "Material Quality :-",
+    "Made from strong, durable materials.",
+    "Uniform grain pattern and consistent color.",
+    "High-quality hardware (drawer sliders, handles, hinges)",
+    "Design & Ergonomics :-",
+    "Comfortable height.",
+    "Spacious tabletop for computer, documents, and accessories.",
+    "This office table is crafted from high-quality engineered wood, offering a stylish and durable design.",
+    "Finish & Aesthetics :-",
+    "Even, well-applied finish.",
+    "No rough spots, bubbles, or discoloration.",
+    "Rounded or smooth edges for safety and comfort.",
+    "Functionality & Features :-",
+    "Built-in drawers, shelves, or cable management holes.",
+    "Lockable storage (for documents or personal items).",
+    "Adequate legroom and knee clearance.",
+    "Durability & Maintenance :-",
+    "Easy-to-clean surface with minimal upkeep.",
+    "Resistant to warping, chipping, or peeling over time.",
+    "Long lifespan under daily use."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+},
+//////////////////////////////
+
+
+{
+  "id": "7.1",
+  "title": "Glass Shutter Office Cabinet in Gorakhpur",
+  "code": "WR 505",
+  "material": "Ply & Laminate",
+  "availability": "✔ In stock",
+  "size": "3' x 7'",
+  "image": "/category/all/7.1.jpg",
+  "gallery": [
+    "/category/all/7.1.jpg",
+    "/category/all/7.2.jpg",
+    "/category/all/7.3.jpg"
+  ],
+  "description": [
+    "Glass shutter office cabinet.",
+    "Multiple racks to organize your office belongings as per your need."
+  ],
+  "warranty": {
+    "years": "5 YEAR*",
+    "covers": [
+      "Manufacturing defects in material",
+      "Improper workmanship",
+      "Termites & fungus",
+      "Color fading if not subjected directly to sunlight",
+      "Product failure"
+    ],
+    "exclusions": [
+      "Damages due to misuse, tampering, abuse, fire, natural calamity",
+      "Scratches, rips etc.",
+      "Negligence, unauthorized usage",
+      "Continuous contact of water",
+      "Shifting of furniture without dismantling it",
+      "Furniture directly exposed to sunlight",
+      "Furniture bought from unauthorized dealer Star Furniture"
+    ]
+  }
+}
+
+
+
 
 
 
